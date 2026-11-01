@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-10-07T14:39:51.299Z",
+  "licence": "ODbL 1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "sourceUrl": "https://www.openstreetmap.org/copyright",
+  "sources": [
+    {
+      "city": "albany",
+      "query": "[out:json][timeout:40];(way[\"amenity\"=\"parking\"](around:4000,42.6526,-73.7562);relation[\"amenity\"=\"parking\"][\"type\"=\"multipolygon\"](around:4000,42.6526,-73.7562);way[\"highway\"=\"pedestrian\"][\"area\"=\"yes\"](around:4000,42.6526,-73.7562);relation[\"highway\"=\"pedestrian\"][\"area\"=\"yes\"][\"type\"=\"multipolygon\"](around:4000,42.6526,-73.7562);way[\"highway\"~\"^(footway|path|cycleway)$\"][\"surface\"~\"^(asphalt|concrete|paved|paving_stones|sett|cobblestone)$\"](around:4000,42.6526,-73.7562);way[\"area:highway\"](around:4000,42.6526,-73.7562););out geom;",
+      "endpoint": "cache",
+      "osmTimestamp": "2026-10-06T13:37:38Z",
+      "sha256": "bc673fea3cc5e1cea1af60969696566a77f8fa0e453473ef16d4181acacb307f",
+      "elements": 1645,
+      "surfaces": 1589
+    },
+    {
+      "city": "troy",
+      "query": "[out:json][timeout:40];(way[\"amenity\"=\"parking\"](42.694467553000365,-73.74071732131874,42.76633244699964,-73.64288267868126);relation[\"amenity\"=\"parking\"][\"type\"=\"multipolygon\"](42.694467553000365,-73.74071732131874,42.76633244699964,-73.64288267868126);way[\"highway\"=\"pedestrian\"][\"area\"=\"yes\"](42.694467553000365,-73.74071732131874,42.76633244699964,-73.64288267868126);relation[\"highway\"=\"pedestrian\"][\"area\"=\"yes\"][\"type\"=\"multipolygon\"](42.694467553000365,-73.74071732131874,42.76633244699964,-73.64288267868126);way[\"highway\"~\"^(footway|path|cycleway)$\"][\"surface\"~\"^(asphalt|concrete|paved|paving_stones|sett|cobblestone)$\"](42.694467553000365,-73.74071732131874,42.76633244699964,-73.64288267868126);way[\"area:highway\"](42.694467553000365,-73.74071732131874,42.76633244699964,-73.64288267868126););out geom;",
+      "endpoint": "cache",
+      "osmTimestamp": "2026-10-06T13:41:48Z",
+      "sha256": "92cefef8d34144857f0cfe96e66cbaae98af4a4f5acbbed70726b3e43a9ec975",
+      "elements": 1494,
+      "surfaces": 1469
+    },
+    {
+      "city": "schenectady",
+      "query": "[out:json][timeout:40];(way[\"amenity\"=\"parking\"](42.778567553000364,-73.98798379166213,42.85043244699964,-73.89001620833785);relation[\"amenity\"=\"parking\"][\"type\"=\"multipolygon\"](42.778567553000364,-73.98798379166213,42.85043244699964,-73.89001620833785);way[\"highway\"=\"pedestrian\"][\"area\"=\"yes\"](42.778567553000364,-73.98798379166213,42.85043244699964,-73.89001620833785);relation[\"highway\"=\"pedestrian\"][\"area\"=\"yes\"][\"type\"=\"multipolygon\"](42.778567553000364,-73.98798379166213,42.85043244699964,-73.89001620833785);way[\"highway\"~\"^(footway|path|cycleway)$\"][\"surface\"~\"^(asphalt|concrete|paved|paving_stones|sett|cobblestone)$\"](42.778567553000364,-73.98798379166213,42.85043244699964,-73.89001620833785);way[\"area:highway\"](42.778567553000364,-73.98798379166213,42.85043244699964,-73.89001620833785););out geom;",
+      "endpoint": "cache",
+      "osmTimestamp": "2026-10-06T13:41:48Z",
+      "sha256": "ff45636afb713189ac015108307834fabe16ca59c48886b53df91edf7f962e8b",
+      "elements": 1428,
+      "surfaces": 1420
+    },
+    {
+      "city": "amsterdam",
+      "query": "[out:json][timeout:40];(way[\"amenity\"=\"parking\"](42.90216755300036,-74.23918200247347,42.97403244699964,-74.14101799752653);relation[\"amenity\"=\"parking\"][\"type\"=\"multipolygon\"](42.90216755300036,-74.23918200247347,42.97403244699964,-74.14101799752653);way[\"highway\"=\"pedestrian\"][\"area\"=\"yes\"](42.90216755300036,-74.23918200247347,42.97403244699964,-74.14101799752653);relation[\"highway\"=\"pedestrian\"][\"area\"=\"yes\"][\"type\"=\"multipolygon\"](42.90216755300036,-74.23918200247347,42.97403244699964,-74.14101799752653);way[\"highway\"~\"^(footway|path|cycleway)$\"][\"surface\"~\"^(asphalt|concrete|paved|paving_stones|sett|cobblestone)$\"](42.90216755300036,-74.23918200247347,42.97403244699964,-74.14101799752653);way[\"area:highway\"](42.90216755300036,-74.23918200247347,42.97403244699964,-74.14101799752653););out geom;",
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "osmTimestamp": "2026-10-07T14:38:33Z",
+      "sha256": "e40fc108a4e625280d23fa8c3d451b7354df0cc2874f18b2644b82ccb5a48f68",
+      "elements": 179,
+      "surfaces": 175
+    }
+  ],
+  "total": 4652
+}

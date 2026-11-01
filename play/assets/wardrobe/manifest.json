@@ -1,0 +1,1771 @@
+{
+ "rig": "MPFB game_engine (same bone names as public/assets/people)",
+ "bodies": {
+  "m": {
+   "height_m": 1.784,
+   "height_param": 0.546875,
+   "hide_rule": "drop a body triangle when all three of its vertices have a worn piece bit in _HIDEMASK"
+  },
+  "bones": [
+   "Root",
+   "pelvis",
+   "spine_01",
+   "spine_02",
+   "spine_03",
+   "clavicle_l",
+   "upperarm_l",
+   "lowerarm_l",
+   "hand_l",
+   "index_01_l",
+   "index_02_l",
+   "index_03_l",
+   "middle_01_l",
+   "middle_02_l",
+   "middle_03_l",
+   "pinky_01_l",
+   "pinky_02_l",
+   "pinky_03_l",
+   "ring_01_l",
+   "ring_02_l",
+   "ring_03_l",
+   "thumb_01_l",
+   "thumb_02_l",
+   "thumb_03_l",
+   "clavicle_r",
+   "upperarm_r",
+   "lowerarm_r",
+   "hand_r",
+   "index_01_r",
+   "index_02_r",
+   "index_03_r",
+   "middle_01_r",
+   "middle_02_r",
+   "middle_03_r",
+   "pinky_01_r",
+   "pinky_02_r",
+   "pinky_03_r",
+   "ring_01_r",
+   "ring_02_r",
+   "ring_03_r",
+   "thumb_01_r",
+   "thumb_02_r",
+   "thumb_03_r",
+   "neck_01",
+   "head",
+   "thigh_l",
+   "calf_l",
+   "foot_l",
+   "ball_l",
+   "thigh_r",
+   "calf_r",
+   "foot_r",
+   "ball_r"
+  ],
+  "f": {
+   "height_m": 1.685,
+   "height_param": 0.5703125,
+   "hide_rule": "drop a body triangle when all three of its vertices have a worn piece bit in _HIDEMASK"
+  }
+ },
+ "items": [
+  {
+   "id": "m_body",
+   "slot": "body",
+   "sex": "m",
+   "name": "Male body (no hair)",
+   "source": "MakeHuman base mesh + skin young_caucasian_male, eyes low-poly, eyebrow001, eyelashes01",
+   "author": "MakeHuman team",
+   "license": "CC0-1.0",
+   "tris": 14760,
+   "tris_lod1": 3550,
+   "file": "m_body.glb",
+   "bytes": 766964,
+   "height_m": 1.784,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "m_Body",
+     "m_BrowsLashes"
+    ],
+    "lod1": [
+     "m_Body_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_top_tee",
+   "slot": "top",
+   "kind": "t-shirt",
+   "sex": "m",
+   "name": "Crew T-Shirt",
+   "source": "elvs_crude_t-shirt_male",
+   "author": "Makehuman edited by Elvaerwyn",
+   "license": "CC0-1.0",
+   "tris": 2068,
+   "tris_source": 2068,
+   "tris_lod1": 517,
+   "file": "m_top_tee.glb",
+   "bytes": 113316,
+   "hideBit": 0,
+   "hides": [
+    "torso"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_top_tee"
+    ],
+    "lod1": [
+     "m_top_tee_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_top_polo",
+   "slot": "top",
+   "kind": "polo",
+   "sex": "m",
+   "name": "Polo Shirt",
+   "source": "namuhekam_male_polo_shirt",
+   "author": "Namuhekam",
+   "license": "CC0-1.0",
+   "tris": 4106,
+   "tris_source": 4106,
+   "tris_lod1": 1025,
+   "file": "m_top_polo.glb",
+   "bytes": 211476,
+   "hideBit": 1,
+   "hides": [
+    "torso",
+    "upper_arms"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_top_polo"
+    ],
+    "lod1": [
+     "m_top_polo_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_top_sweater",
+   "slot": "top",
+   "kind": "sweater",
+   "sex": "m",
+   "name": "Fisherman Sweater",
+   "source": "toigo_fisherman_sweater",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 4164,
+   "tris_source": 4164,
+   "tris_lod1": 1040,
+   "file": "m_top_sweater.glb",
+   "bytes": 248184,
+   "hideBit": 2,
+   "hides": [
+    "torso",
+    "upper_arms",
+    "forearms"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_top_sweater"
+    ],
+    "lod1": [
+     "m_top_sweater_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_top_casual_shirt",
+   "slot": "top",
+   "kind": "shirt",
+   "sex": "m",
+   "name": "Casual Shirt",
+   "source": "male_casualsuit02 (top half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 2408,
+   "tris_source": 2408,
+   "tris_lod1": 601,
+   "file": "m_top_casual_shirt.glb",
+   "bytes": 136392,
+   "hideBit": 3,
+   "hides": [
+    "torso",
+    "upper_arms",
+    "forearms"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_top_casual_shirt"
+    ],
+    "lod1": [
+     "m_top_casual_shirt_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_top_plaid",
+   "slot": "top",
+   "kind": "shirt",
+   "sex": "m",
+   "name": "Plaid Shirt",
+   "source": "male_casualsuit03 (top half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 3088,
+   "tris_source": 3088,
+   "tris_lod1": 772,
+   "file": "m_top_plaid.glb",
+   "bytes": 201868,
+   "hideBit": 4,
+   "hides": [
+    "torso",
+    "upper_arms",
+    "forearms"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_top_plaid"
+    ],
+    "lod1": [
+     "m_top_plaid_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_top_blue_tee",
+   "slot": "top",
+   "kind": "t-shirt",
+   "sex": "m",
+   "name": "Blue T-Shirt",
+   "source": "male_casualsuit04 (top half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 1528,
+   "tris_source": 1528,
+   "tris_lod1": 381,
+   "file": "m_top_blue_tee.glb",
+   "bytes": 99960,
+   "hideBit": 5,
+   "hides": [
+    "torso",
+    "upper_arms"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_top_blue_tee"
+    ],
+    "lod1": [
+     "m_top_blue_tee_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_top_casual_jacket",
+   "slot": "top",
+   "kind": "jacket",
+   "sex": "m",
+   "name": "Casual Jacket",
+   "source": "male_casualsuit05 (top half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 4284,
+   "tris_source": 4284,
+   "tris_lod1": 1070,
+   "file": "m_top_casual_jacket.glb",
+   "bytes": 244280,
+   "hideBit": 6,
+   "hides": [
+    "torso",
+    "upper_arms",
+    "forearms"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_top_casual_jacket"
+    ],
+    "lod1": [
+     "m_top_casual_jacket_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_top_white_tee",
+   "slot": "top",
+   "kind": "t-shirt",
+   "sex": "m",
+   "name": "White T-Shirt",
+   "source": "male_casualsuit06 (top half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 5456,
+   "tris_source": 5456,
+   "tris_lod1": 1364,
+   "file": "m_top_white_tee.glb",
+   "bytes": 264668,
+   "hideBit": 7,
+   "hides": [
+    "torso",
+    "upper_arms"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_top_white_tee"
+    ],
+    "lod1": [
+     "m_top_white_tee_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_top_suit_jacket",
+   "slot": "top",
+   "kind": "jacket",
+   "sex": "m",
+   "name": "Suit Jacket",
+   "source": "toigo_male_suit_3 (top half)",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 5900,
+   "tris_source": 12234,
+   "tris_lod1": 1475,
+   "file": "m_top_suit_jacket.glb",
+   "bytes": 321500,
+   "hideBit": 8,
+   "hides": [
+    "torso",
+    "upper_arms",
+    "forearms"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_top_suit_jacket"
+    ],
+    "lod1": [
+     "m_top_suit_jacket_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_top_tux_jacket",
+   "slot": "top",
+   "kind": "jacket",
+   "sex": "m",
+   "name": "Tuxedo Jacket",
+   "source": "toigo_suit_with_jacket_and_bowtie (top half)",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 5900,
+   "tris_source": 22466,
+   "tris_lod1": 1475,
+   "file": "m_top_tux_jacket.glb",
+   "bytes": 321672,
+   "hideBit": 9,
+   "hides": [
+    "torso",
+    "upper_arms",
+    "forearms"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_top_tux_jacket"
+    ],
+    "lod1": [
+     "m_top_tux_jacket_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_bottom_jeans",
+   "slot": "bottom",
+   "kind": "jeans",
+   "sex": "m",
+   "name": "Jeans",
+   "source": "male_casualsuit02 (bottom half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 1712,
+   "tris_source": 1712,
+   "tris_lod1": 428,
+   "file": "m_bottom_jeans.glb",
+   "bytes": 102440,
+   "hideBit": 10,
+   "hides": [
+    "thighs",
+    "calves"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_bottom_jeans"
+    ],
+    "lod1": [
+     "m_bottom_jeans_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_bottom_jeans_dark",
+   "slot": "bottom",
+   "kind": "jeans",
+   "sex": "m",
+   "name": "Jeans (dark)",
+   "source": "male_casualsuit06 (bottom half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 1712,
+   "tris_source": 1712,
+   "tris_lod1": 428,
+   "file": "m_bottom_jeans_dark.glb",
+   "bytes": 100564,
+   "hideBit": 11,
+   "hides": [
+    "thighs",
+    "calves"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_bottom_jeans_dark"
+    ],
+    "lod1": [
+     "m_bottom_jeans_dark_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_bottom_cargo",
+   "slot": "bottom",
+   "kind": "cargo",
+   "sex": "m",
+   "name": "Cargo Pants",
+   "source": "cortu_cargo_pants",
+   "author": "cortu",
+   "license": "CC0-1.0",
+   "tris": 392,
+   "tris_source": 392,
+   "tris_lod1": 97,
+   "file": "m_bottom_cargo.glb",
+   "bytes": 40948,
+   "hideBit": 12,
+   "hides": [
+    "thighs",
+    "calves"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_bottom_cargo"
+    ],
+    "lod1": [
+     "m_bottom_cargo_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_bottom_wool",
+   "slot": "bottom",
+   "kind": "chinos",
+   "sex": "m",
+   "name": "Wool Trousers",
+   "source": "toigo_wool_pants",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 2674,
+   "tris_source": 2674,
+   "tris_lod1": 668,
+   "file": "m_bottom_wool.glb",
+   "bytes": 147396,
+   "hideBit": 13,
+   "hides": [
+    "thighs",
+    "calves"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_bottom_wool"
+    ],
+    "lod1": [
+     "m_bottom_wool_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_bottom_suit",
+   "slot": "bottom",
+   "kind": "suit-trousers",
+   "sex": "m",
+   "name": "Suit Trousers",
+   "source": "toigo_male_suit_3 (bottom half)",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 4016,
+   "tris_source": 4016,
+   "tris_lod1": 1004,
+   "file": "m_bottom_suit.glb",
+   "bytes": 212800,
+   "hideBit": 14,
+   "hides": [
+    "thighs",
+    "calves"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_bottom_suit"
+    ],
+    "lod1": [
+     "m_bottom_suit_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_bottom_shorts",
+   "slot": "bottom",
+   "kind": "shorts",
+   "sex": "m",
+   "name": "Denim Shorts",
+   "source": "cortu_jeans_shorts",
+   "author": "cortu",
+   "license": "CC0-1.0",
+   "tris": 500,
+   "tris_source": 500,
+   "tris_lod1": 125,
+   "file": "m_bottom_shorts.glb",
+   "bytes": 51080,
+   "hideBit": 15,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "m_bottom_shorts"
+    ],
+    "lod1": [
+     "m_bottom_shorts_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_shoes_sneakers",
+   "slot": "shoes",
+   "kind": "sneakers",
+   "sex": "m",
+   "name": "White Sneakers",
+   "source": "shoes05",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 3064,
+   "tris_source": 3064,
+   "tris_lod1": 765,
+   "file": "m_shoes_sneakers.glb",
+   "bytes": 183696,
+   "hideBit": 16,
+   "hides": [
+    "calves",
+    "feet"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_shoes_sneakers"
+    ],
+    "lod1": [
+     "m_shoes_sneakers_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_shoes_sneakers_blue",
+   "slot": "shoes",
+   "kind": "sneakers",
+   "sex": "m",
+   "name": "Blue Sneakers",
+   "source": "shoes06",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 3064,
+   "tris_source": 3064,
+   "tris_lod1": 765,
+   "file": "m_shoes_sneakers_blue.glb",
+   "bytes": 194804,
+   "hideBit": 17,
+   "hides": [
+    "calves",
+    "feet"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_shoes_sneakers_blue"
+    ],
+    "lod1": [
+     "m_shoes_sneakers_blue_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_shoes_leather",
+   "slot": "shoes",
+   "kind": "sneakers",
+   "sex": "m",
+   "name": "Leather Sneakers",
+   "source": "shoes01",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 3320,
+   "tris_source": 3320,
+   "tris_lod1": 829,
+   "file": "m_shoes_leather.glb",
+   "bytes": 192120,
+   "hideBit": 18,
+   "hides": [
+    "calves",
+    "feet"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_shoes_leather"
+    ],
+    "lod1": [
+     "m_shoes_leather_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_shoes_dress",
+   "slot": "shoes",
+   "kind": "dress",
+   "sex": "m",
+   "name": "Dress Shoes",
+   "source": "shoes04",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 3320,
+   "tris_source": 3320,
+   "tris_lod1": 829,
+   "file": "m_shoes_dress.glb",
+   "bytes": 182360,
+   "hideBit": 19,
+   "hides": [
+    "calves",
+    "feet"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_shoes_dress"
+    ],
+    "lod1": [
+     "m_shoes_dress_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_shoes_boots",
+   "slot": "shoes",
+   "kind": "boots",
+   "sex": "m",
+   "name": "Boots",
+   "source": "shoes03",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 4128,
+   "tris_source": 4128,
+   "tris_lod1": 1031,
+   "file": "m_shoes_boots.glb",
+   "bytes": 227548,
+   "hideBit": 20,
+   "hides": [
+    "calves",
+    "feet"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_shoes_boots"
+    ],
+    "lod1": [
+     "m_shoes_boots_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_shoes_ankle_boots",
+   "slot": "shoes",
+   "kind": "boots",
+   "sex": "m",
+   "name": "Ankle Boots",
+   "source": "toigo_ankle_boots_male",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 4120,
+   "tris_source": 4120,
+   "tris_lod1": 1030,
+   "file": "m_shoes_ankle_boots.glb",
+   "bytes": 220648,
+   "hideBit": 21,
+   "hides": [
+    "feet"
+   ],
+   "meshes": {
+    "lod0": [
+     "m_shoes_ankle_boots"
+    ],
+    "lod1": [
+     "m_shoes_ankle_boots_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_hair_short01",
+   "slot": "hair",
+   "kind": "hair",
+   "sex": "m",
+   "name": "Short Hair 1",
+   "source": "short01",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 3678,
+   "tris_source": 3678,
+   "tris_lod1": 1471,
+   "file": "m_hair_short01.glb",
+   "bytes": 395752,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "m_hair_short01"
+    ],
+    "lod1": [
+     "m_hair_short01_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_hair_short02",
+   "slot": "hair",
+   "kind": "hair",
+   "sex": "m",
+   "name": "Short Hair 2",
+   "source": "short02",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 3344,
+   "tris_source": 3344,
+   "tris_lod1": 1336,
+   "file": "m_hair_short02.glb",
+   "bytes": 208376,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "m_hair_short02"
+    ],
+    "lod1": [
+     "m_hair_short02_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_hair_short04",
+   "slot": "hair",
+   "kind": "hair",
+   "sex": "m",
+   "name": "Buzz Cut",
+   "source": "short04",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 1050,
+   "tris_source": 1050,
+   "tris_lod1": 420,
+   "file": "m_hair_short04.glb",
+   "bytes": 160120,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "m_hair_short04"
+    ],
+    "lod1": [
+     "m_hair_short04_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_hair_messy",
+   "slot": "hair",
+   "kind": "hair",
+   "sex": "m",
+   "name": "Messy Short Hair",
+   "source": "cortu_short_messy_hair",
+   "author": "cortu",
+   "license": "CC0-1.0",
+   "tris": 1092,
+   "tris_source": 1092,
+   "tris_lod1": 436,
+   "file": "m_hair_messy.glb",
+   "bytes": 197836,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "m_hair_messy"
+    ],
+    "lod1": [
+     "m_hair_messy_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_hair_afro",
+   "slot": "hair",
+   "kind": "hair",
+   "sex": "m",
+   "name": "Afro",
+   "source": "afro01",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 2192,
+   "tris_source": 2192,
+   "tris_lod1": 875,
+   "file": "m_hair_afro.glb",
+   "bytes": 351720,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "m_hair_afro"
+    ],
+    "lod1": [
+     "m_hair_afro_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_hat_fedora",
+   "slot": "hat",
+   "kind": "hat",
+   "sex": "m",
+   "name": "Fedora",
+   "source": "fedora01",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 1244,
+   "tris_source": 1244,
+   "tris_lod1": 310,
+   "file": "m_hat_fedora.glb",
+   "bytes": 122412,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "m_hat_fedora"
+    ],
+    "lod1": [
+     "m_hat_fedora_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_hat_fedora_tilt",
+   "slot": "hat",
+   "kind": "hat",
+   "sex": "m",
+   "name": "Fedora (tilted)",
+   "source": "fedora_cocked",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 1244,
+   "tris_source": 1244,
+   "tris_lod1": 311,
+   "file": "m_hat_fedora_tilt.glb",
+   "bytes": 122708,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "m_hat_fedora_tilt"
+    ],
+    "lod1": [
+     "m_hat_fedora_tilt_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "m_body_hair",
+   "slot": "body",
+   "sex": "m",
+   "name": "Male body with hair_short02",
+   "source": "as m_body + hair_short02",
+   "author": "MakeHuman team",
+   "license": "CC0-1.0",
+   "tris": 18104,
+   "file": "m_body_hair.glb",
+   "bytes": 958612,
+   "hides": []
+  },
+  {
+   "id": "f_body",
+   "slot": "body",
+   "sex": "f",
+   "name": "Female body (no hair)",
+   "source": "MakeHuman base mesh + skin young_caucasian_female, eyes low-poly, eyebrow002, eyelashes02",
+   "author": "MakeHuman team",
+   "license": "CC0-1.0",
+   "tris": 14760,
+   "tris_lod1": 3550,
+   "file": "f_body.glb",
+   "bytes": 775788,
+   "height_m": 1.685,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "f_Body",
+     "f_BrowsLashes"
+    ],
+    "lod1": [
+     "f_Body_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_top_tee",
+   "slot": "top",
+   "kind": "t-shirt",
+   "sex": "f",
+   "name": "Crew T-Shirt",
+   "source": "joepal_crude_t-shirt_female",
+   "author": "Joel Palmius",
+   "license": "CC0-1.0",
+   "tris": 2068,
+   "tris_source": 2068,
+   "tris_lod1": 516,
+   "file": "f_top_tee.glb",
+   "bytes": 114308,
+   "hideBit": 0,
+   "hides": [
+    "torso",
+    "upper_arms"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_top_tee"
+    ],
+    "lod1": [
+     "f_top_tee_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_top_tucked_tee",
+   "slot": "top",
+   "kind": "t-shirt",
+   "sex": "f",
+   "name": "Tucked T-Shirt",
+   "source": "toigo_basic_tucked_t-shirt",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 2700,
+   "tris_source": 2700,
+   "tris_lod1": 674,
+   "file": "f_top_tucked_tee.glb",
+   "bytes": 150612,
+   "hideBit": 1,
+   "hides": [
+    "torso",
+    "upper_arms"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_top_tucked_tee"
+    ],
+    "lod1": [
+     "f_top_tucked_tee_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_top_turtleneck",
+   "slot": "top",
+   "kind": "sweater",
+   "sex": "f",
+   "name": "Turtleneck Top",
+   "source": "toigo_turtleneck_halter_top",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 5504,
+   "tris_source": 5504,
+   "tris_lod1": 1376,
+   "file": "f_top_turtleneck.glb",
+   "bytes": 264932,
+   "hideBit": 2,
+   "hides": [
+    "torso"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_top_turtleneck"
+    ],
+    "lod1": [
+     "f_top_turtleneck_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_top_tank",
+   "slot": "top",
+   "kind": "tank",
+   "sex": "f",
+   "name": "Tank Top",
+   "source": "toigo_keyhole_tank_top",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 1352,
+   "tris_source": 1352,
+   "tris_lod1": 337,
+   "file": "f_top_tank.glb",
+   "bytes": 194924,
+   "hideBit": 3,
+   "hides": [
+    "torso"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_top_tank"
+    ],
+    "lod1": [
+     "f_top_tank_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_top_camisole",
+   "slot": "top",
+   "kind": "tank",
+   "sex": "f",
+   "name": "Camisole",
+   "source": "toigo_camisole_top",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 5899,
+   "tris_source": 8232,
+   "tris_lod1": 1473,
+   "file": "f_top_camisole.glb",
+   "bytes": 319732,
+   "hideBit": 4,
+   "hides": [
+    "torso"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_top_camisole"
+    ],
+    "lod1": [
+     "f_top_camisole_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_top_casual",
+   "slot": "top",
+   "kind": "casual",
+   "sex": "f",
+   "name": "Casual Top",
+   "source": "female_casualsuit01 (top half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 2524,
+   "tris_source": 2524,
+   "tris_lod1": 630,
+   "file": "f_top_casual.glb",
+   "bytes": 142432,
+   "hideBit": 5,
+   "hides": [
+    "torso",
+    "upper_arms"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_top_casual"
+    ],
+    "lod1": [
+     "f_top_casual_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_top_blue_tee",
+   "slot": "top",
+   "kind": "t-shirt",
+   "sex": "f",
+   "name": "Blue T-Shirt",
+   "source": "female_casualsuit02 (top half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 2524,
+   "tris_source": 2524,
+   "tris_lod1": 630,
+   "file": "f_top_blue_tee.glb",
+   "bytes": 140896,
+   "hideBit": 6,
+   "hides": [
+    "torso",
+    "upper_arms"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_top_blue_tee"
+    ],
+    "lod1": [
+     "f_top_blue_tee_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_top_sport",
+   "slot": "top",
+   "kind": "sport",
+   "sex": "f",
+   "name": "Sport Tee",
+   "source": "female_sportsuit01 (top half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 1724,
+   "tris_source": 1724,
+   "tris_lod1": 431,
+   "file": "f_top_sport.glb",
+   "bytes": 114088,
+   "hideBit": 7,
+   "hides": [
+    "torso",
+    "upper_arms"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_top_sport"
+    ],
+    "lod1": [
+     "f_top_sport_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_top_suit_jacket",
+   "slot": "top",
+   "kind": "jacket",
+   "sex": "f",
+   "name": "Suit Jacket",
+   "source": "toigo_female_suit_2 (top half)",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 5900,
+   "tris_source": 12198,
+   "tris_lod1": 1474,
+   "file": "f_top_suit_jacket.glb",
+   "bytes": 318544,
+   "hideBit": 8,
+   "hides": [
+    "torso",
+    "upper_arms",
+    "forearms"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_top_suit_jacket"
+    ],
+    "lod1": [
+     "f_top_suit_jacket_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_top_elegant",
+   "slot": "top",
+   "kind": "shirt",
+   "sex": "f",
+   "name": "Elegant Blouse",
+   "source": "female_elegantsuit01 (top half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 3464,
+   "tris_source": 3464,
+   "tris_lod1": 866,
+   "file": "f_top_elegant.glb",
+   "bytes": 203480,
+   "hideBit": 9,
+   "hides": [
+    "torso",
+    "upper_arms",
+    "forearms"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_top_elegant"
+    ],
+    "lod1": [
+     "f_top_elegant_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_bottom_pants",
+   "slot": "bottom",
+   "kind": "jeans",
+   "sex": "f",
+   "name": "Casual Pants",
+   "source": "female_casualsuit01 (bottom half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 1712,
+   "tris_source": 1712,
+   "tris_lod1": 428,
+   "file": "f_bottom_pants.glb",
+   "bytes": 103124,
+   "hideBit": 10,
+   "hides": [
+    "thighs",
+    "calves"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_bottom_pants"
+    ],
+    "lod1": [
+     "f_bottom_pants_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_bottom_cutoffs",
+   "slot": "bottom",
+   "kind": "shorts",
+   "sex": "f",
+   "name": "Denim Cutoffs",
+   "source": "female_casualsuit02 (bottom half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 2964,
+   "tris_source": 2964,
+   "tris_lod1": 741,
+   "file": "f_bottom_cutoffs.glb",
+   "bytes": 159244,
+   "hideBit": 11,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "f_bottom_cutoffs"
+    ],
+    "lod1": [
+     "f_bottom_cutoffs_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_bottom_leggings",
+   "slot": "bottom",
+   "kind": "sport",
+   "sex": "f",
+   "name": "Leggings",
+   "source": "female_sportsuit01 (bottom half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 1712,
+   "tris_source": 1712,
+   "tris_lod1": 427,
+   "file": "f_bottom_leggings.glb",
+   "bytes": 108152,
+   "hideBit": 12,
+   "hides": [
+    "thighs",
+    "calves"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_bottom_leggings"
+    ],
+    "lod1": [
+     "f_bottom_leggings_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_bottom_suit",
+   "slot": "bottom",
+   "kind": "suit-trousers",
+   "sex": "f",
+   "name": "Suit Trousers",
+   "source": "toigo_female_suit_2 (bottom half)",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 4016,
+   "tris_source": 4016,
+   "tris_lod1": 1004,
+   "file": "f_bottom_suit.glb",
+   "bytes": 209696,
+   "hideBit": 13,
+   "hides": [
+    "thighs",
+    "calves"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_bottom_suit"
+    ],
+    "lod1": [
+     "f_bottom_suit_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_bottom_elegant_skirt",
+   "slot": "bottom",
+   "kind": "skirt",
+   "sex": "f",
+   "name": "Pencil Skirt",
+   "source": "female_elegantsuit01 (bottom half)",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 728,
+   "tris_source": 728,
+   "tris_lod1": 182,
+   "file": "f_bottom_elegant_skirt.glb",
+   "bytes": 74784,
+   "hideBit": 14,
+   "hides": [
+    "thighs"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_bottom_elegant_skirt"
+    ],
+    "lod1": [
+     "f_bottom_elegant_skirt_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_bottom_shorts",
+   "slot": "bottom",
+   "kind": "shorts",
+   "sex": "f",
+   "name": "Denim Shorts",
+   "source": "cortu_jeans_shorts",
+   "author": "cortu",
+   "license": "CC0-1.0",
+   "tris": 500,
+   "tris_source": 500,
+   "tris_lod1": 125,
+   "file": "f_bottom_shorts.glb",
+   "bytes": 50892,
+   "hideBit": 15,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "f_bottom_shorts"
+    ],
+    "lod1": [
+     "f_bottom_shorts_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_bottom_harem",
+   "slot": "bottom",
+   "kind": "pants",
+   "sex": "f",
+   "name": "Harem Pants",
+   "source": "toigo_harem_pants",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 5899,
+   "tris_source": 10912,
+   "tris_lod1": 1474,
+   "file": "f_bottom_harem.glb",
+   "bytes": 374144,
+   "hideBit": 16,
+   "hides": [
+    "thighs",
+    "calves"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_bottom_harem"
+    ],
+    "lod1": [
+     "f_bottom_harem_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_shoes_sneakers",
+   "slot": "shoes",
+   "kind": "sneakers",
+   "sex": "f",
+   "name": "White Sneakers",
+   "source": "shoes05",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 3064,
+   "tris_source": 3064,
+   "tris_lod1": 766,
+   "file": "f_shoes_sneakers.glb",
+   "bytes": 183888,
+   "hideBit": 17,
+   "hides": [
+    "calves",
+    "feet"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_shoes_sneakers"
+    ],
+    "lod1": [
+     "f_shoes_sneakers_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_shoes_sneakers_blue",
+   "slot": "shoes",
+   "kind": "sneakers",
+   "sex": "f",
+   "name": "Blue Sneakers",
+   "source": "shoes06",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 3064,
+   "tris_source": 3064,
+   "tris_lod1": 766,
+   "file": "f_shoes_sneakers_blue.glb",
+   "bytes": 194996,
+   "hideBit": 18,
+   "hides": [
+    "calves",
+    "feet"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_shoes_sneakers_blue"
+    ],
+    "lod1": [
+     "f_shoes_sneakers_blue_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_shoes_mary_janes",
+   "slot": "shoes",
+   "kind": "dress",
+   "sex": "f",
+   "name": "Mary Janes",
+   "source": "toigo_mj_cloth_shoes",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 1004,
+   "tris_source": 1004,
+   "tris_lod1": 251,
+   "file": "f_shoes_mary_janes.glb",
+   "bytes": 91640,
+   "hideBit": 19,
+   "hides": [
+    "feet"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_shoes_mary_janes"
+    ],
+    "lod1": [
+     "f_shoes_mary_janes_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_shoes_flats",
+   "slot": "shoes",
+   "kind": "dress",
+   "sex": "f",
+   "name": "Ballet Flats",
+   "source": "toigo_ballet_flats",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 5900,
+   "tris_source": 8960,
+   "tris_lod1": 1474,
+   "file": "f_shoes_flats.glb",
+   "bytes": 307940,
+   "hideBit": 20,
+   "hides": [
+    "feet"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_shoes_flats"
+    ],
+    "lod1": [
+     "f_shoes_flats_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_shoes_ankle_boots",
+   "slot": "shoes",
+   "kind": "boots",
+   "sex": "f",
+   "name": "Ankle Boots",
+   "source": "toigo_ankle_boots_female",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 4120,
+   "tris_source": 4120,
+   "tris_lod1": 1030,
+   "file": "f_shoes_ankle_boots.glb",
+   "bytes": 222080,
+   "hideBit": 21,
+   "hides": [
+    "feet"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_shoes_ankle_boots"
+    ],
+    "lod1": [
+     "f_shoes_ankle_boots_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_shoes_boots",
+   "slot": "shoes",
+   "kind": "boots",
+   "sex": "f",
+   "name": "Boots",
+   "source": "shoes03",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 4128,
+   "tris_source": 4128,
+   "tris_lod1": 1031,
+   "file": "f_shoes_boots.glb",
+   "bytes": 227524,
+   "hideBit": 22,
+   "hides": [
+    "calves",
+    "feet"
+   ],
+   "meshes": {
+    "lod0": [
+     "f_shoes_boots"
+    ],
+    "lod1": [
+     "f_shoes_boots_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_hair_ponytail",
+   "slot": "hair",
+   "kind": "hair",
+   "sex": "f",
+   "name": "Ponytail",
+   "source": "ponytail01",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 5352,
+   "tris_source": 5352,
+   "tris_lod1": 2140,
+   "file": "f_hair_ponytail.glb",
+   "bytes": 446824,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "f_hair_ponytail"
+    ],
+    "lod1": [
+     "f_hair_ponytail_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_hair_long",
+   "slot": "hair",
+   "kind": "hair",
+   "sex": "f",
+   "name": "Long Hair",
+   "source": "long01",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 4108,
+   "tris_source": 4108,
+   "tris_lod1": 1643,
+   "file": "f_hair_long.glb",
+   "bytes": 340280,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "f_hair_long"
+    ],
+    "lod1": [
+     "f_hair_long_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_hair_bob",
+   "slot": "hair",
+   "kind": "hair",
+   "sex": "f",
+   "name": "Bob",
+   "source": "bob02",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 2248,
+   "tris_source": 2248,
+   "tris_lod1": 899,
+   "file": "f_hair_bob.glb",
+   "bytes": 220136,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "f_hair_bob"
+    ],
+    "lod1": [
+     "f_hair_bob_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_hair_braid",
+   "slot": "hair",
+   "kind": "hair",
+   "sex": "f",
+   "name": "Braid",
+   "source": "braid01",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 5518,
+   "tris_source": 5518,
+   "tris_lod1": 2207,
+   "file": "f_hair_braid.glb",
+   "bytes": 437988,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "f_hair_braid"
+    ],
+    "lod1": [
+     "f_hair_braid_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_hair_short",
+   "slot": "hair",
+   "kind": "hair",
+   "sex": "f",
+   "name": "Short Hair",
+   "source": "short03",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 1922,
+   "tris_source": 1922,
+   "tris_lod1": 767,
+   "file": "f_hair_short.glb",
+   "bytes": 142556,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "f_hair_short"
+    ],
+    "lod1": [
+     "f_hair_short_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_hair_blunt_bob",
+   "slot": "hair",
+   "kind": "hair",
+   "sex": "f",
+   "name": "Blunt Bob",
+   "source": "toigo_blunt_bob",
+   "author": "MRT",
+   "license": "CC0-1.0",
+   "tris": 2858,
+   "tris_source": 2858,
+   "tris_lod1": 1142,
+   "file": "f_hair_blunt_bob.glb",
+   "bytes": 268092,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "f_hair_blunt_bob"
+    ],
+    "lod1": [
+     "f_hair_blunt_bob_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_hat_fedora",
+   "slot": "hat",
+   "kind": "hat",
+   "sex": "f",
+   "name": "Fedora",
+   "source": "fedora01",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 1244,
+   "tris_source": 1244,
+   "tris_lod1": 310,
+   "file": "f_hat_fedora.glb",
+   "bytes": 122596,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "f_hat_fedora"
+    ],
+    "lod1": [
+     "f_hat_fedora_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_hat_fedora_tilt",
+   "slot": "hat",
+   "kind": "hat",
+   "sex": "f",
+   "name": "Fedora (tilted)",
+   "source": "fedora_cocked",
+   "author": "MakeHuman team (system assets)",
+   "license": "CC0-1.0",
+   "tris": 1244,
+   "tris_source": 1244,
+   "tris_lod1": 310,
+   "file": "f_hat_fedora_tilt.glb",
+   "bytes": 122420,
+   "hideBit": null,
+   "hides": [],
+   "meshes": {
+    "lod0": [
+     "f_hat_fedora_tilt"
+    ],
+    "lod1": [
+     "f_hat_fedora_tilt_LOD1"
+    ]
+   }
+  },
+  {
+   "id": "f_body_hair",
+   "slot": "body",
+   "sex": "f",
+   "name": "Female body with hair_ponytail",
+   "source": "as f_body + hair_ponytail",
+   "author": "MakeHuman team",
+   "license": "CC0-1.0",
+   "tris": 20112,
+   "file": "f_body_hair.glb",
+   "bytes": 1205916,
+   "hides": []
+  }
+ ]
+}

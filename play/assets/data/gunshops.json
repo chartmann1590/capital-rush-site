@@ -1,0 +1,67 @@
+{
+ "note": "Gun shops (README row 10, Phase 41): every OSM shop=weapons in the region, plus The Indoor Gun Range (OSM shop=sports, sport=shooting). Overpass, 2026-10-24. Their businesses carry category \"weapons\" in data/businesses.json.",
+ "shops": [
+  {
+   "id": "biz-b--10_-12-6",
+   "real": "Glenville Gun Center",
+   "name": "Glenville Gune Center",
+   "osm": "way/545023988",
+   "tags": "shop=weapons",
+   "x": -9618.4,
+   "z": -11121.6,
+   "district": "schenectady",
+   "address": "98 Freemans Bridge Road, Glenville"
+  },
+  {
+   "id": "biz-n4980124739",
+   "real": "NY Shooter Supply",
+   "name": "NY Shouter Supply",
+   "osm": "node/4980124739",
+   "tags": "shop=weapons",
+   "x": -978.8,
+   "z": 2543.3,
+   "district": "colonie",
+   "address": "Central Avenue, Village of Colonie"
+  },
+  {
+   "id": "biz-b-15_-2-7",
+   "real": "The Indoor Gun Range",
+   "name": "The Indoore Gun Range",
+   "osm": "way/954767888",
+   "tags": "shop=sports, sport=shooting",
+   "x": 15033.5,
+   "z": -1200.4,
+   "district": "troy",
+   "address": "807 Hoosick Road, Troy"
+  },
+  {
+   "id": "biz-b-2_-22-2",
+   "real": "Zack's Sports",
+   "name": "Zack's Spports",
+   "osm": "way/296966552",
+   "tags": "shop=weapons",
+   "x": 2318.7,
+   "z": -21371.9,
+   "district": "round-lake",
+   "address": "2138 Route 9, Round Lake"
+  }
+ ],
+ "notBuilt": [
+  {
+   "real": "Dick's Sporting Goods / Dick's House of Sport",
+   "why": "big-box sporting goods (OSM shop=sports); a walk-in sports store as before"
+  },
+  {
+   "real": "Bass Pro Shops",
+   "why": "OSM shop=outdoor; a walk-in sports store as before"
+  },
+  {
+   "real": "Plaine and Son",
+   "why": "OSM shop=sports"
+  },
+  {
+   "real": "Mohawk Army-Navy",
+   "why": "OSM shop=outdoor (surplus clothing and gear)"
+  }
+ ]
+}

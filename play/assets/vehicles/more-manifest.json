@@ -1,0 +1,141 @@
+{
+  "models": [
+    {
+      "id": "suv",
+      "file": "suv-driving.glb",
+      "label": "Chevrolet Tahoe (2007)",
+      "lengthM": 5.13,
+      "rotationY": 0,
+      "paint": [
+        "Paint"
+      ],
+      "glass": [],
+      "wheels": "^wheel_\\d",
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-110/8b1db1daad3f4c1fafd41f9a36511855.glb",
+      "sha256": "07bc21fd1fcdacc2867dde14dd18bce9b3babbf0576007f142f3c3a9f65a210f",
+      "title": "Chevy Tahoe-Unmarked",
+      "author": "David_Holiday",
+      "url": "https://sketchfab.com/3d-models/8b1db1daad3f4c1fafd41f9a36511855",
+      "licence": "CC BY 4.0",
+      "trianglesBefore": 126436,
+      "triangles": 53416,
+      "bytes": 343280,
+      "runtimeSha256": "a067b9a9aa8c2c219b0ab74e576004d5c873920551c96ac8313a76496410fbad"
+    },
+    {
+      "id": "luxury",
+      "file": "luxury-driving.glb",
+      "label": "Cadillac Escalade (2009)",
+      "lengthM": 5.14,
+      "rotationY": 0,
+      "paint": [
+        "Paint"
+      ],
+      "glass": [],
+      "wheels": "^wheel_\\d",
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-150/7c5516c76bd441d998af76e2240a2b8d.glb",
+      "sha256": "159fe9e6a7575839d24aba6055f26d2439a0d171f0682d3fdc17cca7b8028038",
+      "title": "2009 Cadillac Escalade",
+      "author": "nekkantisrikar2007",
+      "url": "https://sketchfab.com/3d-models/7c5516c76bd441d998af76e2240a2b8d",
+      "licence": "CC BY 4.0",
+      "trianglesBefore": 116485,
+      "triangles": 47853,
+      "bytes": 288640,
+      "runtimeSha256": "29c4f6f455c1a67c9ea5a7ff4e3c6ddbf07142283e18a411559ee1d898a68c5f"
+    },
+    {
+      "id": "offroad",
+      "file": "offroad-driving.glb",
+      "label": "Jeep Wrangler Rubicon",
+      "lengthM": 4.7,
+      "rotationY": 0,
+      "paint": [
+        "Paint"
+      ],
+      "glass": [
+        "Glass"
+      ],
+      "wheels": "^wheel_\\d",
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-011/178f22467bae4c729bdcc15dbc7e445d.glb",
+      "sha256": "aa50ec286f8956eb9429aded0f2adc1cf570bd6d6d44d5a2cd680fbf13195087",
+      "title": "Jeep Rubicon",
+      "author": "Armawiz",
+      "url": "https://sketchfab.com/3d-models/178f22467bae4c729bdcc15dbc7e445d",
+      "licence": "CC BY 4.0",
+      "trianglesBefore": 25545,
+      "triangles": 25545,
+      "bytes": 772792,
+      "runtimeSha256": "abaeb2d22cb5b8d9d1b3362a18bb543b55ced2161ecdc022954e6f2003396bc8"
+    },
+    {
+      "id": "pickup",
+      "file": "pickup-driving.glb",
+      "label": "Ford F-150 Raptor (2021)",
+      "lengthM": 5.89,
+      "rotationY": 0,
+      "paint": [
+        "Paint"
+      ],
+      "glass": [
+        "Glass"
+      ],
+      "wheels": "^wheel_\\d",
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-006/a1dafa8c1ff5440ab1fc05a1fcf239ac.glb",
+      "sha256": "1123e0c0e256e6d8ea55cd6559598bbbb2e52f8dcd4e98d430b188698ba33a11",
+      "title": "Ford F150 Raptor",
+      "author": "David_Holiday",
+      "url": "https://sketchfab.com/3d-models/a1dafa8c1ff5440ab1fc05a1fcf239ac",
+      "licence": "CC BY 4.0",
+      "trianglesBefore": 74644,
+      "triangles": 47903,
+      "bytes": 309896,
+      "runtimeSha256": "45850f22818f042558fd0bc20b49eecda0784e636d6519b55b12dc1aa8530f55"
+    },
+    {
+      "id": "roadster",
+      "file": "roadster-driving.glb",
+      "label": "Mazda MX-5 Miata (NA)",
+      "lengthM": 3.95,
+      "rotationY": 0,
+      "paint": [
+        "Paint"
+      ],
+      "glass": [
+        "Glass"
+      ],
+      "wheels": "^wheel_\\d",
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-108/d51fcd44b74f4daf8012c41e0400c041.glb",
+      "sha256": "56e6c972b7236fff190d8bee36d32bbe3f3f17a89a00be7b9b6ce5681e569cf6",
+      "title": "Mazda Miata MX-5 NA",
+      "author": "Lexyc16",
+      "url": "https://sketchfab.com/3d-models/d51fcd44b74f4daf8012c41e0400c041",
+      "licence": "CC BY 4.0",
+      "trianglesBefore": 51316,
+      "triangles": 43650,
+      "bytes": 178860,
+      "runtimeSha256": "170b2c8026017f9f2c31dcc870fa7fdd5a8852c9403e4442b15ca0b528b09126"
+    },
+    {
+      "id": "taxi",
+      "file": "taxi-driving.glb",
+      "label": "Crown Victoria-style taxicab",
+      "lengthM": 5.39,
+      "rotationY": 0,
+      "paint": [],
+      "glass": [],
+      "wheels": "^wheel_\\d",
+      "noPaint": true,
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-145/d4c035d5857f4b49baf2ee27f7051a16.glb",
+      "sha256": "5599c94fa193ae7a614f27ac9c20ca2a0be3c6bdb14d83558745f957e626e97b",
+      "title": "2008 Baird Silver Coronet Taxicab",
+      "author": "aduong278",
+      "url": "https://sketchfab.com/3d-models/d4c035d5857f4b49baf2ee27f7051a16",
+      "licence": "CC BY 4.0",
+      "trianglesBefore": 85369,
+      "triangles": 44325,
+      "bytes": 900604,
+      "runtimeSha256": "c75b902e6710ab9816696aadeed1b4f36ca227d579f2484eaaaaf3cb1d77e282"
+    }
+  ]
+}

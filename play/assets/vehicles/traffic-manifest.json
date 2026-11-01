@@ -1,0 +1,81 @@
+{
+  "models": [
+    {
+      "id": "hatchback",
+      "file": "civic-driving.glb",
+      "label": "1991 Honda Civic EG6",
+      "lengthM": 4.07,
+      "ratio": 1,
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-110/f81da34570b145deb463fa091604d251.glb",
+      "sha256": "0bf94a7d3d3f6dd574a64b15c08820735cdaf78a7213d4d747af438a886d3710",
+      "author": "rifdanzz",
+      "url": "https://sketchfab.com/3d-models/1991-honda-civic-eg6-f81da34570b145deb463fa091604d251",
+      "paint": [
+        "Car_Paint"
+      ],
+      "glass": [
+        "Window_Glass"
+      ],
+      "wheels": "^Circle(?:\\.?\\d+)?$",
+      "licence": "CC BY 4.0",
+      "rotationY": 1.5707963267948966,
+      "trianglesBefore": 21594,
+      "triangles": 21594,
+      "bytes": 124900,
+      "runtimeSha256": "38e601c62ca57651f0812579013c2abf469c8af305b19ebda9337f81fae5bbd3"
+    },
+    {
+      "id": "sedan",
+      "file": "corolla-driving.glb",
+      "label": "Toyota Corolla KE80",
+      "lengthM": 4.3,
+      "ratio": 0.25,
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-066/2b30faa611e64177a94a69098d27d1fb.glb",
+      "sha256": "639d3a6472b8ac845b7e211e14b2b84d319a7d437f9c5d0a76861c5c4d180f06",
+      "author": "PHAC / remtromol",
+      "url": "https://sketchfab.com/3d-models/toyota-corolla-ke80-2b30faa611e64177a94a69098d27d1fb",
+      "paint": [
+        "body"
+      ],
+      "glass": [
+        "glass"
+      ],
+      "wheels": "^corolla-wheel",
+      "licence": "CC BY 4.0",
+      "rotationY": 1.5707963267948966,
+      "trianglesBefore": 131208,
+      "triangles": 33333,
+      "bytes": 144620,
+      "runtimeSha256": "709edaf9783fceeebcde8a0030198c018dad31bba7301260ba6464bf80aa155b"
+    },
+    {
+      "id": "coupe",
+      "file": "bmw-m4-driving.glb",
+      "label": "BMW M4 Competition",
+      "lengthM": 4.79,
+      "ratio": 0.2,
+      "source": "https://raw.githubusercontent.com/lukaizj/car-mod-saas/2a4cbf3b06769d7dff84bfdd3d1f445ef672be1a/public/models/bmw-m4.glb",
+      "sha256": "913ac951ba2645777c91393b86aed2def2433a807e57e626b203908aa474b8fb",
+      "author": "SRT Performance",
+      "url": "https://sketchfab.com/3d-models/bmw-m4-competition-m-package-5c0a2dafb1ad408d9fc9eeef9aee531b",
+      "paint": [
+        "Mesheszx1Mtl",
+        "Meshesbody151Mtl"
+      ],
+      "glass": [
+        "Mesheswindows1Mtl"
+      ],
+      "wheels": "^WHeelsandrims",
+      "splitWheels": true,
+      "fixedWheelMaterials": [
+        "Caliper1Mtl"
+      ],
+      "licence": "CC BY 4.0",
+      "rotationY": 1.5707963267948966,
+      "trianglesBefore": 206593,
+      "triangles": 44127,
+      "bytes": 758808,
+      "runtimeSha256": "22f2e523bfb6b44bafb7ada48f3e523c265fd10cf2dc06b843f2e9c550c92115"
+    }
+  ]
+}

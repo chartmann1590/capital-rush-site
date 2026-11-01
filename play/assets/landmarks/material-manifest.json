@@ -1,0 +1,170 @@
+{
+  "families": [
+    {
+      "prefix": "cedar",
+      "id": "japanese_cedar_planks",
+      "title": "Japanese Cedar Planks",
+      "authors": {
+        "Charlotte Baglioni": "Scanning",
+        "Rico Cilliers": "Processing "
+      },
+      "url": "https://polyhaven.com/a/japanese_cedar_planks",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modifications": "Resized to 512 pixels and compressed as WebP for runtime use.",
+      "assets": [
+        {
+          "slot": "albedo",
+          "file": "cedar-albedo.webp",
+          "bytes": 42714,
+          "sha256": "9fedb4fdc957991294480bbfdb8c73683bfcaa13f9df56bb4bdebededc529d2b",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/japanese_cedar_planks/japanese_cedar_planks_diff_1k.jpg",
+          "sourceMd5": "a88e63ae003679e2d356807c57363eaf",
+          "sourceSha256": "cce8e8c5e5e6ba7956a6edf9fa6121c57fa2bfab0ebd672951bede9e053cbec4"
+        },
+        {
+          "slot": "normal",
+          "file": "cedar-normal.webp",
+          "bytes": 338900,
+          "sha256": "37353155b37adf642658451d201cd6743cbaf64656f2990c2cf0b0c9b6551a72",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/japanese_cedar_planks/japanese_cedar_planks_nor_gl_1k.jpg",
+          "sourceMd5": "e6cecd3314e91a66318d65c33173560b",
+          "sourceSha256": "2537ec9d8589caf8a89ef4e733d015318030d9ee9e2c2fdfa1471154770ebbea"
+        },
+        {
+          "slot": "rough",
+          "file": "cedar-rough.webp",
+          "bytes": 46404,
+          "sha256": "0a4a18cfb5131dc93791e07303855b770ed5ba79e45aa282b9f9a84ee8104550",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/japanese_cedar_planks/japanese_cedar_planks_rough_1k.jpg",
+          "sourceMd5": "735506fd095892c4882398db1b98847b",
+          "sourceSha256": "494826e6d014fd7098eed24ff8b342ea8b3c83281e290ac5c2eacef4c9f3a424"
+        }
+      ]
+    },
+    {
+      "prefix": "concrete",
+      "id": "concrete_wall_005",
+      "title": "Concrete Wall 005",
+      "authors": {
+        "Dario Barresi": "Processing",
+        "Dimitrios Savva": "Photography"
+      },
+      "url": "https://polyhaven.com/a/concrete_wall_005",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modifications": "Resized to 512 pixels and compressed as WebP for runtime use.",
+      "assets": [
+        {
+          "slot": "albedo",
+          "file": "concrete-albedo.webp",
+          "bytes": 20978,
+          "sha256": "06c82550f9bcd83e6141e064644527fee8dc86259e698dc7f5b7c044ca578de0",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_wall_005/concrete_wall_005_diff_1k.jpg",
+          "sourceMd5": "67c38b069f2d69d0affe75cdce587dc1",
+          "sourceSha256": "a06a7246e8d220badf4ab7225b6a69d6fe87238816f68efa0cd3523f6ba75cc9"
+        },
+        {
+          "slot": "normal",
+          "file": "concrete-normal.webp",
+          "bytes": 343278,
+          "sha256": "9eb03f1d280f25b1e0a1068075c081acc6daf8db86d99bca06d383e212caae23",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_wall_005/concrete_wall_005_nor_gl_1k.jpg",
+          "sourceMd5": "40b05a1b9c041c9254e02ce4394a16be",
+          "sourceSha256": "89dc8af90cf2521932bae79838433ed6741e81409b0ef91e788a4c4c3f52fb6a"
+        },
+        {
+          "slot": "rough",
+          "file": "concrete-rough.webp",
+          "bytes": 1252,
+          "sha256": "6c17e2d6c28444568480a3477d92871406e7d310e91257e6eadf560b505ba0a1",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_wall_005/concrete_wall_005_rough_1k.jpg",
+          "sourceMd5": "f0ef2a43be1370fa9e03a9b524115ad3",
+          "sourceSha256": "2b55007fbc56387d8a96bafbd58670ab5df8bd782705b908de9ebe5fd8de6dff"
+        }
+      ]
+    },
+    {
+      "prefix": "stone",
+      "id": "sandstone_blocks_05",
+      "title": "Sandstone Blocks 05",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "url": "https://polyhaven.com/a/sandstone_blocks_05",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modifications": "Resized to 512 pixels and compressed as WebP for runtime use.",
+      "assets": [
+        {
+          "slot": "albedo",
+          "file": "stone-albedo.webp",
+          "bytes": 104288,
+          "sha256": "1667e0cc37546ddd34c7df8262d8a1ab27c61d221c80bdb1946f93164be0335a",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sandstone_blocks_05/sandstone_blocks_05_diff_1k.jpg",
+          "sourceMd5": "2c3651fdf1071d7b60d82f0e86953968",
+          "sourceSha256": "d17c322d9e793ab9fc198948a34f2632595560471ff8714f2b0e052bc75c9ee3"
+        },
+        {
+          "slot": "normal",
+          "file": "stone-normal.webp",
+          "bytes": 554178,
+          "sha256": "ff7b69e742e7eecfe62c48cd1f89598f1ef91b7a6070a7ce7efc7698c01d16c1",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sandstone_blocks_05/sandstone_blocks_05_nor_gl_1k.jpg",
+          "sourceMd5": "cb9d5f4e66155a34236d6e2420ce276b",
+          "sourceSha256": "ab42361855310d8de9b11470c6b21e512c9926decd5548dc9e9d72bd6cc06f3e"
+        },
+        {
+          "slot": "rough",
+          "file": "stone-rough.webp",
+          "bytes": 28348,
+          "sha256": "687896cfea4f0d73156c790d89912056ecf4110335748e3608d14612928226af",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sandstone_blocks_05/sandstone_blocks_05_rough_1k.jpg",
+          "sourceMd5": "a03b0c00935fb50ebe141a4356abc03b",
+          "sourceSha256": "4f4d27fc3186e18db5423ddbd41902cd5c5bd5642d4cdea89610c1b5d1f9821d"
+        }
+      ]
+    },
+    {
+      "prefix": "slate",
+      "id": "roof_slates_03",
+      "title": "Roof Slates 03",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "url": "https://polyhaven.com/a/roof_slates_03",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modifications": "Resized to 512 pixels and compressed as WebP for runtime use.",
+      "assets": [
+        {
+          "slot": "albedo",
+          "file": "slate-albedo.webp",
+          "bytes": 58734,
+          "sha256": "53645c90246514bac09d6579479c757cebe6f8c647160c5dcb03ff351e479e1a",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/roof_slates_03/roof_slates_03_diff_1k.jpg",
+          "sourceMd5": "b416c53d9720ff8b057631ccc6331bf3",
+          "sourceSha256": "ad7caff0fae22a67c2429021129840d3d9247ec4370bafadc2c031e1693fe8a9"
+        },
+        {
+          "slot": "normal",
+          "file": "slate-normal.webp",
+          "bytes": 371574,
+          "sha256": "93e9ec48933bff768196dbc028070792b925147527094f8dd7b3fb96c2e635d7",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/roof_slates_03/roof_slates_03_nor_gl_1k.jpg",
+          "sourceMd5": "bc28f302d4f9345ba462e19436aed93a",
+          "sourceSha256": "0eb010215ea6e2de800adf6cf86fd5fb9e9a24b0d12d1297bb4b8d56b205c87d"
+        },
+        {
+          "slot": "rough",
+          "file": "slate-rough.webp",
+          "bytes": 528,
+          "sha256": "c4af9ff7f69642e3d284cd816e7599d79943cffa62272cd57488e6bdead8bd93",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/roof_slates_03/roof_slates_03_rough_1k.jpg",
+          "sourceMd5": "a9d3cec6ba6480e9aa18817d391a53d4",
+          "sourceSha256": "7c0ba13dd4695647e2ac6fd0dbceb457497ce853d879a1d1d860a6301832bf8f"
+        }
+      ]
+    }
+  ]
+}

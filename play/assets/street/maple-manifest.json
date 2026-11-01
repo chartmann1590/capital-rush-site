@@ -1,0 +1,28 @@
+{
+  "source": {
+    "title": "Maple Tree",
+    "author": "evolveduk",
+    "url": "https://sketchfab.com/3d-models/maple-tree-b5e945e7abcc471da6547c04e314774c",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "download": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-131/b5e945e7abcc471da6547c04e314774c.glb",
+    "sha256": "fcc45a1669886931ca8f3a92d27ba16aaec8f9f675927fa1dde0a0a7bc855450"
+  },
+  "heightM": 7.62,
+  "assets": [
+    {
+      "lod": "near",
+      "file": "maple-near.glb",
+      "triangles": 9117,
+      "bytes": 1222988,
+      "sha256": "400621c3cec06efc18106e19d1d52e9afc15f53f1cce9b419b9c7067b88381c6"
+    },
+    {
+      "lod": "far",
+      "file": "maple-far.glb",
+      "triangles": 6453,
+      "bytes": 951340,
+      "sha256": "36b66aa4e48791a6f6075009eb9aee43da9f6df736dfe36a9960ec44eaf0b2a1"
+    }
+  ]
+}

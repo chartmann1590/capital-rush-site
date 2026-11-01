@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CAPITAL RUSH: the Capital Region, open world, free in your browser</title>
+<meta name="description" content="An open-world crime game set on the real streets of Albany, Troy, Schenectady and Amsterdam, NY. 1:1 scale, real buses, real shops, a five-act story. Free in any browser, phones included.">
+<meta property="og:title" content="CAPITAL RUSH">
+<meta property="og:description" content="The real New York Capital Region as an open-world crime game. Free in your browser.">
+<meta property="og:image" content="https://chartmann1590.github.io/capital-rush-site/img/og.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chartmann1590.github.io/capital-rush-site/">
+<link rel="canonical" href="https://chartmann1590.github.io/capital-rush-site/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="play/assets/icon.svg" type="image/svg+xml">
+<style>
+:root{--ink:#f4f1ea;--dim:#a9a49a;--bg:#0b0b0d;--card:#141418;--line:#26262c;--hot:#ff3d5a;--gold:#ffc23d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Segoe UI",Inter,system-ui,-apple-system,sans-serif}
+a{color:inherit}
+.wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;background:linear-gradient(#000c,#0000);padding:14px 0}
+nav .wrap{display:flex;align-items:center;gap:22px}
+.logo{font-weight:900;letter-spacing:.14em;font-size:20px;text-decoration:none}
+.logo b{color:var(--hot)}
+nav .links{margin-left:auto;display:flex;gap:20px;font-size:15px}
+nav .links a{text-decoration:none;color:var(--dim)}nav .links a:hover{color:var(--ink)}
+.hero{position:relative;height:100vh;min-height:620px;overflow:hidden;display:flex;align-items:flex-end}
+.hero video,.hero .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0000 35%,#0b0b0dee 88%,#0b0b0d)}
+.hero .wrap{position:relative;z-index:2;padding-bottom:9vh;width:100%}
+h1{font-size:clamp(54px,11vw,138px);line-height:.9;margin:0;font-weight:900;letter-spacing:.02em;text-transform:uppercase}
+h1 span{color:var(--hot)}
+.tag{font-size:clamp(19px,2.4vw,26px);max-width:720px;margin:18px 0 28px;color:#e9e4da}
+.btns{display:flex;flex-wrap:wrap;gap:14px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:800;text-decoration:none;letter-spacing:.04em;text-transform:uppercase;font-size:15px;border:2px solid var(--ink)}
+.btn.main{background:var(--hot);border-color:var(--hot);color:#fff}
+.btn:hover{transform:translateY(-1px)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stats div{background:var(--bg);padding:26px 18px;text-align:center}
+.stats b{display:block;font-size:34px;font-weight:900;color:var(--gold)}
+.stats span{color:var(--dim);font-size:14px;text-transform:uppercase;letter-spacing:.08em}
+section{padding:96px 0}
+h2{font-size:clamp(34px,5vw,56px);margin:0 0 14px;line-height:1;text-transform:uppercase;font-weight:900}
+.kicker{color:var(--hot);font-weight:800;letter-spacing:.18em;text-transform:uppercase;font-size:13px;margin-bottom:12px}
+.lead{color:var(--dim);font-size:19px;max-width:760px}
+.trailer{aspect-ratio:16/9;width:100%;border-radius:14px;overflow:hidden;background:#000;margin-top:34px;border:1px solid var(--line)}
+.trailer video{width:100%;height:100%;display:block}
+.story{display:grid;grid-template-columns:1.1fr 1fr;gap:46px;align-items:center}
+.story img{width:100%;border-radius:14px;border:1px solid var(--line)}
+.cast{display:grid;gap:14px;margin-top:26px}
+.cast div{border-left:3px solid var(--hot);padding:2px 0 2px 14px}
+.cast b{display:block}
+.cast span{color:var(--dim);font-size:15px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
+.f{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.f img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.f div{padding:18px 20px 22px}
+.f h3{margin:0 0 6px;font-size:19px}
+.f p{margin:0;color:var(--dim);font-size:15px}
+.missions{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin-top:36px}
+.m{position:relative;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:#000}
+.m img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;opacity:.85}
+.m p{margin:0;padding:10px 14px 12px;font-size:14px;color:var(--dim)}
+.m p b{color:var(--ink);display:block;font-size:16px}
+.acts{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:36px}
+.act{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--card)}
+.act small{color:var(--dim);text-transform:uppercase;letter-spacing:.1em;font-size:12px}
+.act b{display:block;font-size:17px;margin:4px 0}
+.act span{font-size:13px;color:var(--dim)}
+.act.on{border-color:var(--hot);background:#2a0d13}
+.act.on span{color:#ffb3c0}
+.gallery{columns:3 300px;column-gap:14px;margin-top:36px}
+.gallery img{width:100%;border-radius:10px;margin:0 0 14px;display:block;border:1px solid var(--line)}
+.ctrl{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:30px}
+.ctrl table{width:100%;border-collapse:collapse;font-size:15px}
+.ctrl td{padding:8px 0;border-bottom:1px solid var(--line)}
+.ctrl td:first-child{color:var(--gold);font-weight:700;width:44%}
+.cta{text-align:center;padding:110px 0;background:radial-gradient(ellipse at center,#3a0e17 0,#0b0b0d 70%)}
+.cta .btns{justify-content:center;margin-top:26px}
+footer{color:var(--dim);font-size:14px;padding:34px 0;border-top:1px solid var(--line)}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:860px){.stats{grid-template-columns:repeat(2,1fr)}.story,.ctrl{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.acts{grid-template-columns:repeat(3,1fr)}nav .links{display:none}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.acts{grid-template-columns:1fr 1fr}section{padding:70px 0}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><a class="logo" href="#">CAPITAL<b> RUSH</b></a><div class="links"><a href="#trailer">Trailer</a><a href="#story">Story</a><a href="#world">The world</a><a href="#missions">Missions</a><a href="#controls">Controls</a></div><a class="btn main" style="padding:10px 18px;font-size:13px" href="play/">Play free</a></div></nav>
+
+<header class="hero">
+  <img class="poster" src="img/hero.jpg" alt="">
+  <video autoplay muted loop playsinline poster="img/hero.jpg" preload="metadata"><source src="media/hero-loop.mp4" type="video/mp4"></video>
+  <div class="wrap">
+    <h1>Capital<br><span>Rush</span></h1>
+    <p class="tag">An open-world crime story on the real streets of Albany, Troy, Schenectady and Amsterdam. Every road at true scale. Free, in your browser, phone included.</p>
+    <div class="btns"><a class="btn main" href="play/">▶ Play free now</a><a class="btn" href="#trailer">Watch the trailer</a></div>
+  </div>
+</header>
+
+<div class="stats">
+  <div><b>1:1</b><span>real streets, true scale</span></div>
+  <div><b>4,600+</b><span>shops, bars and restaurants you walk into</span></div>
+  <div><b>57</b><span>real CDTA bus lines to ride</span></div>
+  <div><b>34</b><span>story missions and counting</span></div>
+</div>
+
+<section id="trailer"><div class="wrap">
+  <div class="kicker">Official trailer</div>
+  <h2>See it move</h2>
+  <p class="lead">Every frame is captured from the game itself, running in a browser: State Street at golden hour, a tail through downtown Albany, Schenectady at dusk, three stars and a city after dark.</p>
+  <div class="trailer"><video id="trailer-video" controls playsinline preload="none" poster="img/trailer-poster.jpg"></video></div>
+  <script>
+  // The trailer streams as HLS (1080p and 720p, two-second pieces): Safari plays it natively, other
+  // browsers get hls.js, loaded only when the trailer is about to be watched.
+  (function () {
+    var v = document.getElementById('trailer-video'), src = 'media/trailer/master.m3u8', ready = false;
+    function attach() {
+      if (ready) return; ready = true;
+      if (v.canPlayType('application/vnd.apple.mpegurl')) { v.src = src; return; }
+      var s = document.createElement('script'); s.src = 'media/hls.light.min.js';
+      s.onload = function () { if (window.Hls && Hls.isSupported()) { var h = new Hls({ capLevelToPlayerSize: true }); h.loadSource(src); h.attachMedia(v); } };
+      document.head.appendChild(s);
+    }
+    if ('IntersectionObserver' in window) new IntersectionObserver(function (e, o) { if (e[0].isIntersecting) { attach(); o.disconnect(); } }, { rootMargin: '600px' }).observe(v);
+    else attach();
+    v.addEventListener('play', attach);
+  })();
+  </script>
+</div></section>
+
+<section id="story" style="padding-top:20px"><div class="wrap story">
+  <div>
+    <div class="kicker">Act I · The Dome · out now</div>
+    <h2>Somebody in the Capitol is on the payroll</h2>
+    <p class="lead">An envelope you ran last month wasn't a menu. Holloway Freight keeps a second set of books, and a line every month goes to "E.H. consulting". Follow the money from the Corning Tower to the Port of Albany, keep a detective close enough to use and far enough to trust, and get your fixer out of the city before the roads close.</p>
+    <div class="cast">
+      <div><b>Dana Whitlock</b><span>Your fixer. Knows every back door in Albany and owes nobody a straight answer.</span></div>
+      <div><b>Det. Lena Ruiz</b><span>Wants the ledger more than she wants you. For now.</span></div>
+      <div><b>Ellis Holloway</b><span>Runs the trucks. Pays the people who look the other way.</span></div>
+    </div>
+  </div>
+  <img src="img/story.jpg" alt="Tailing Holloway's truck toward the Port of Albany">
+</div></section>
+
+<section id="world" style="background:#0f0f12"><div class="wrap">
+  <div class="kicker">The world</div>
+  <h2>The Capital Region, as it really is</h2>
+  <p class="lead">Built from OpenStreetMap at a metre for a metre: a 52 by 41 km map with the real street names, the real bus stops and the real businesses on them, under parody names.</p>
+  <div class="grid">
+    <div class="f"><img src="img/f-drive.jpg" alt="Driving through downtown Albany"><div><h3>Drive anything with a door</h3><p>Parked cars, traffic, a car bought off a real dealer's lot. Motorcycles, mopeds, e-bikes, scooters and skateboards too.</p></div></div>
+    <div class="f"><img src="img/f-bus.jpg" alt="Aboard a CDTA bus"><div><h3>Ride the real transit</h3><p>Press B at any real CDTA stop and ride the line end to end, or take Amtrak between Albany-Rensselaer, Schenectady and Amsterdam.</p></div></div>
+    <div class="f"><img src="img/f-walkin.jpg" alt="Inside a bar"><div><h3>Walk in anywhere</h3><p>Thousands of real shops, bars and restaurants have a door on their real street. Order at the counter, eat to heal, walk back out.</p></div></div>
+    <div class="f"><img src="img/f-chase.jpg" alt="A police chase"><div><h3>Heat that escalates</h3><p>Pursuits, roadblocks and a wanted level that climbs fast. Pull them off a street on purpose, then lose them.</p></div></div>
+    <div class="f"><img src="img/f-night.jpg" alt="Troy at night"><div><h3>Four cities, day and night</h3><p>Albany's Capitol and plaza, Troy's river streets, Schenectady past Proctors, Amsterdam on the Mohawk, plus Saratoga and Lake George.</p></div></div>
+    <div class="f"><img src="img/f-casino.jpg" alt="Casino floor"><div><h3>Spend it</h3><p>A walkable casino with slots, blackjack and roulette, two malls, guns, clothes, property and a crew to hire.</p></div></div>
+  </div>
+</div></section>
+
+<section id="missions"><div class="wrap">
+  <div class="kicker">Thirteen new missions</div>
+  <h2>Act I: The Dome</h2>
+  <p class="lead">Tail a truck through traffic without getting made. Hold two stars on Lark Street, then shake them. Plant a wire in the federal courthouse. Every mission has its own briefing, its own pay and a clean retry when it goes wrong.</p>
+  <div class="missions"><div class="m"><img loading="lazy" src="img/m-ledger.jpg" alt="The Ledger: on foot across the Empire State Plaza toward the Corning Tower"><p><b>22. The Ledger</b>Photograph Holloway Freight&#x27;s second set of books in the Corning Tower.</p></div><div class="m"><img loading="lazy" src="img/m-tail-holloway.jpg" alt="Freight Lines: tailing Holloway&#x27;s truck toward the port at a safe gap"><p><b>23. Freight Lines</b>Tail Holloway&#x27;s truck to the port. Stay back, don&#x27;t lose it.</p></div><div class="m"><img loading="lazy" src="img/m-drops.jpg" alt="Three Drops: picking up Dana&#x27;s cash drops before the courier"><p><b>24. Three Drops</b>Grab Dana&#x27;s three cash drops before the courier does.</p></div><div class="m"><img loading="lazy" src="img/m-heat.jpg" alt="Lark Street Lights: two stars up, pulling the police off Lark Street"><p><b>25. Lark Street Lights</b>Keep two stars for a minute on Lark Street, then lose them.</p></div><div class="m"><img loading="lazy" src="img/m-palace.jpg" alt="Palace Matinee: driving to the Palace Theatre to meet Detective Ruiz"><p><b>26. Palace Matinee</b>Meet Detective Ruiz under the Palace Theatre marquee.</p></div><div class="m"><img loading="lazy" src="img/m-wheels.jpg" alt="Borrowed Wheels: 2 km in a borrowed car without drawing the police"><p><b>27. Borrowed Wheels</b>Drive 2 km in a borrowed car without drawing the police.</p></div><div class="m"><img loading="lazy" src="img/m-bug.jpg" alt="Wire in the Wall: planting a recorder at the federal courthouse"><p><b>28. Wire in the Wall</b>Plant recorders in the federal courthouse and City Hall.</p></div><div class="m"><img loading="lazy" src="img/m-cathedral.jpg" alt="Sanctuary: driving the witness to Schuyler Mansion"><p><b>29. Sanctuary</b>Get a frightened witness to Schuyler Mansion.</p></div><div class="m"><img loading="lazy" src="img/m-port.jpg" alt="Port of Albany: running the stolen converters up to the courthouse"><p><b>30. Port of Albany</b>Load four stolen converters along Riverside Avenue.</p></div><div class="m"><img loading="lazy" src="img/m-tail-assembly.jpg" alt="The Assemblyman: tailing the assemblyman&#x27;s sedan to Washington Park"><p><b>31. The Assemblyman</b>Follow the assemblyman&#x27;s sedan to a meeting in Washington Park.</p></div><div class="m"><img loading="lazy" src="img/m-burn.jpg" alt="Burn Notice: three stars from Holloway&#x27;s tip, then losing them"><p><b>32. Burn Notice</b>Holloway put the police on you. Three stars. Lose them.</p></div><div class="m"><img loading="lazy" src="img/m-plaza.jpg" alt="Empire State Plaza: walking the ledger to Ruiz at the Egg"><p><b>33. Empire State Plaza</b>Walk the ledger across Empire State Plaza to Ruiz.</p></div><div class="m"><img loading="lazy" src="img/m-dome.jpg" alt="The Dome: getting Dana to North Albany before the roads close"><p><b>34. The Dome</b>Get Dana out to North Albany before the roads close.</p></div></div>
+  <div class="acts">
+    <div class="act"><small>Prologue</small><b>21 missions</b><span>Playable</span></div>
+    <div class="act on"><small>Act I</small><b>The Dome</b><span>Out now · Albany</span></div>
+    <div class="act"><small>Act II</small><b>Collar City</b><span>Coming · Troy</span></div>
+    <div class="act"><small>Act III</small><b>Electric City</b><span>Coming · Schenectady, Amsterdam</span></div>
+    <div class="act"><small>Act IV</small><b>Spa City</b><span>Coming · Saratoga, Lake George</span></div>
+    <div class="act"><small>Act V</small><b>Capital Rush</b><span>Coming · all four cities</span></div>
+  </div>
+</div></section>
+
+<section style="background:#0f0f12"><div class="wrap">
+  <div class="kicker">Gallery</div>
+  <h2>Postcards from the Capital Region</h2>
+  <div class="gallery"><img loading="lazy" src="img/gal-capitol.jpg" alt="CAPITAL RUSH screenshot"><img loading="lazy" src="img/f-drive.jpg" alt="CAPITAL RUSH screenshot"><img loading="lazy" src="img/gal-sch.jpg" alt="CAPITAL RUSH screenshot"><img loading="lazy" src="img/gal-dialogue.jpg" alt="CAPITAL RUSH screenshot"><img loading="lazy" src="img/story.jpg" alt="CAPITAL RUSH screenshot"><img loading="lazy" src="img/gal-albany.jpg" alt="CAPITAL RUSH screenshot"><img loading="lazy" src="img/f-walkin.jpg" alt="CAPITAL RUSH screenshot"><img loading="lazy" src="img/gal-restaurant.jpg" alt="CAPITAL RUSH screenshot"><img loading="lazy" src="img/f-casino.jpg" alt="CAPITAL RUSH screenshot"><img loading="lazy" src="img/f-bus.jpg" alt="CAPITAL RUSH screenshot"><img loading="lazy" src="img/f-night.jpg" alt="CAPITAL RUSH screenshot"><img loading="lazy" src="img/f-chase.jpg" alt="CAPITAL RUSH screenshot"></div>
+</div></section>
+
+<section id="controls"><div class="wrap">
+  <div class="kicker">Play anywhere</div>
+  <h2>Keyboard, gamepad or phone</h2>
+  <p class="lead">No download and no account. A save code carries your story, cash, cars and crew to any browser.</p>
+  <div class="ctrl">
+    <table><tr><td>W A S D</td><td>walk, drive</td></tr><tr><td>Mouse</td><td>look, attack, aim</td></tr><tr><td>Shift / Space</td><td>sprint, boost / jump, handbrake</td></tr><tr><td>E</td><td>doors, counters, rides, dealers</td></tr><tr><td>F</td><td>get in or out of a car</td></tr><tr><td>B</td><td>board the bus</td></tr></table>
+    <table><tr><td>T</td><td>phone: dispatch contracts</td></tr><tr><td>Q / V</td><td>radio / camera</td></tr><tr><td>M / Esc</td><td>map / menu</td></tr><tr><td>On a phone</td><td>left stick walks, drag to look, on-screen buttons</td></tr><tr><td>Gamepad</td><td>plug in and play</td></tr><tr><td>Save code</td><td>Esc → Save Code, paste it anywhere</td></tr></table>
+  </div>
+</div></section>
+
+<div class="cta"><div class="wrap">
+  <h2>Albany is waiting</h2>
+  <p class="lead" style="margin:0 auto">Free in any modern browser. Best on a desktop with a graphics card; it runs on phones too.</p>
+  <div class="btns"><a class="btn main" href="play/">▶ Play CAPITAL RUSH</a></div>
+</div></div>
+
+<footer><div class="wrap"><span>© 2026 Charles Hartmann · CAPITAL RUSH</span><span>Map data © OpenStreetMap contributors · Transit data courtesy of CDTA · Businesses appear under parody names</span></div></footer>
+</body>
+</html>

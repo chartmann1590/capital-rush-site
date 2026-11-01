@@ -1,0 +1,18 @@
+{
+  "families": [
+    {
+      "key": "siding",
+      "id": "white_planks_clean",
+      "url": "https://polyhaven.com/a/white_planks_clean",
+      "license": "CC0 1.0",
+      "rotated": true
+    },
+    {
+      "key": "shingle",
+      "id": "grey_roof_01",
+      "url": "https://polyhaven.com/a/grey_roof_01",
+      "license": "CC0 1.0",
+      "rotated": false
+    }
+  ]
+}

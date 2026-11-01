@@ -1,0 +1,200 @@
+{
+ "docks": [
+  {
+   "name": "Bike share",
+   "x": -9277.7,
+   "z": -9371.2,
+   "cap": 8
+  },
+  {
+   "name": "State & Swan (SE)",
+   "x": 4919.7,
+   "z": 9660.4,
+   "cap": 8
+  },
+  {
+   "name": "Albany Medical Center",
+   "x": 3786.9,
+   "z": 9658.7,
+   "cap": 6
+  },
+  {
+   "name": "Madison & Lark",
+   "x": 4286.4,
+   "z": 9741.7,
+   "cap": 6
+  },
+  {
+   "name": "Empire State Plaza",
+   "x": 4740.8,
+   "z": 10094.6,
+   "cap": 9
+  },
+  {
+   "name": "Washington Park - Madison & New Scotland",
+   "x": 3972.3,
+   "z": 9439.6,
+   "cap": 12
+  },
+  {
+   "name": "Lark & Spring",
+   "x": 4453.8,
+   "z": 9111.4,
+   "cap": 7
+  },
+  {
+   "name": "Holland & Delaware",
+   "x": 3952.8,
+   "z": 10519.9,
+   "cap": 6
+  },
+  {
+   "name": "The Point",
+   "x": 2301.2,
+   "z": 8197.4,
+   "cap": 7
+  },
+  {
+   "name": "Clinton & Lark",
+   "x": 4913.8,
+   "z": 8924.4,
+   "cap": 5
+  },
+  {
+   "name": "Maiden Lane Park",
+   "x": 5667.3,
+   "z": 10005.2,
+   "cap": 7
+  },
+  {
+   "name": "Ontario & Madosin",
+   "x": 3120.6,
+   "z": 8827.8,
+   "cap": 6
+  },
+  {
+   "name": "Hudson Riverway Park - Corning Preserve",
+   "x": 6295.3,
+   "z": 9372.3,
+   "cap": 10
+  },
+  {
+   "name": "Warehouse District",
+   "x": 6099.2,
+   "z": 8824.3,
+   "cap": 7
+  },
+  {
+   "name": "State & Eagle (SE)",
+   "x": 5282.4,
+   "z": 9906.9,
+   "cap": 7
+  },
+  {
+   "name": "Western & North Lake",
+   "x": 3763.0,
+   "z": 8796.6,
+   "cap": 5
+  },
+  {
+   "name": "Palace Theater - Clinton & North Pearl",
+   "x": 5704.1,
+   "z": 9561.0,
+   "cap": 7
+  },
+  {
+   "name": "Lark & Spring",
+   "x": 4599.6,
+   "z": 9327.5,
+   "cap": 7
+  },
+  {
+   "name": "Swinburne Park - Clinton & Ontario",
+   "x": 3767.4,
+   "z": 7993.1,
+   "cap": 6
+  },
+  {
+   "name": "Bike share",
+   "x": 4325.6,
+   "z": 12532.4,
+   "cap": 5
+  },
+  {
+   "name": "Bike share",
+   "x": 4242.6,
+   "z": 9891.9,
+   "cap": 8
+  },
+  {
+   "name": "Bike share",
+   "x": 11214.2,
+   "z": -809.8,
+   "cap": 8
+  },
+  {
+   "name": "Bike share",
+   "x": 3176.2,
+   "z": 6857.4,
+   "cap": 8
+  },
+  {
+   "name": "Bike share",
+   "x": 4235.9,
+   "z": 9901.5,
+   "cap": 8
+  },
+  {
+   "name": "Bike share",
+   "x": 10857.5,
+   "z": 1310.9,
+   "cap": 8
+  },
+  {
+   "name": "Bike share",
+   "x": 10604.8,
+   "z": 1645.5,
+   "cap": 8
+  },
+  {
+   "name": "Bike share",
+   "x": 10981.6,
+   "z": 16.7,
+   "cap": 8
+  }
+ ],
+ "skate": [
+  {
+   "name": "Endure Indoor Skatepark",
+   "x": 6171.9,
+   "z": 8703.7
+  },
+  {
+   "name": "Skate spot",
+   "x": 3672.4,
+   "z": 9223.7
+  },
+  {
+   "name": "Skate spot",
+   "x": 2580.0,
+   "z": 8799.8
+  },
+  {
+   "name": "Clifton Park Action Park",
+   "x": 3173.6,
+   "z": -13017.1
+  },
+  {
+   "name": "Skate spot",
+   "x": 8918.0,
+   "z": -3169.5
+  },
+  {
+   "name": "Skate spot",
+   "x": -30115.8,
+   "z": -21671.9
+  }
+ ],
+ "network": "CDPHQ Cykle!",
+ "note": "OSM amenity=bicycle_rental (the region bike share, parody-named) and sport=skateboard, Overpass 2026-10-24"
+}

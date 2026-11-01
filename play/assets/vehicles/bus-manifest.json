@@ -1,0 +1,24 @@
+{
+  "models": [
+    {
+      "id": "bus",
+      "file": "town-bus.glb",
+      "label": "Generic Town Bus",
+      "lengthM": 10.8,
+      "rotationY": 0,
+      "paint": [],
+      "glass": [
+        "glass"
+      ],
+      "wheels": "^bus-wheel-",
+      "splitWheels": true,
+      "author": "own.guest",
+      "url": "https://sketchfab.com/3d-models/generic-town-bus-14fe03d792914d51b6c6250b393c44fd",
+      "licence": "CC BY 4.0",
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-154/14fe03d792914d51b6c6250b393c44fd.glb",
+      "sha256": "a8750122cb211145706490e8fbd26ce821d6e8a4074f943974997b2331a02ab9",
+      "triangles": 55527,
+      "wheelComponents": 10
+    }
+  ]
+}

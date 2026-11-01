@@ -1,0 +1,57 @@
+[
+ {
+  "slug": "crossgates",
+  "name": "Crossgaits Mall",
+  "osm": "w57738776",
+  "centre": [
+   -2503.5,
+   5608.5
+  ],
+  "levels": 2,
+  "mode": "mall"
+ },
+ {
+  "slug": "colonie-center",
+  "name": "Coloni Center",
+  "osm": "w37752067",
+  "centre": [
+   292.3,
+   3317.2
+  ],
+  "levels": 2,
+  "mode": "mall"
+ },
+ {
+  "slug": "rivers-casino",
+  "name": "Rovers Casino & Resort",
+  "osm": "r6720305",
+  "centre": [
+   -9578.1,
+   -9303.8
+  ],
+  "levels": 1,
+  "mode": "casino"
+ },
+ {
+  "slug": "rivers-garage",
+  "name": "Rovers Casino Parking Garage",
+  "osm": "r6720306",
+  "centre": [
+   -9509.8,
+   -9328.5
+  ],
+  "levels": 4,
+  "mode": "garage"
+ },
+ {
+  "slug": "saratoga-casino",
+  "name": "Saratogah Casino & Raceway",
+  "osm": "w334514840",
+  "centre": [
+   3769.8,
+   -35781.7
+  ],
+  "levels": 1,
+  "mode": "casino"
+ }
+]

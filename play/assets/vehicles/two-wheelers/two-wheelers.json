@@ -1,0 +1,115 @@
+{
+  "models": [
+    {
+      "id": "standard",
+      "kind": "motorcycle",
+      "file": "standard.glb",
+      "label": "Hondo CB-400 Super Fore",
+      "real": "Honda CB400 Super Four",
+      "lengthM": 2.08,
+      "prices": [
+        4900,
+        5900,
+        6500
+      ],
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-114/f209de0f9c7b490da5e4089241f4705c.glb",
+      "sha256": "b5e120c221ae4a10a5e77648a54ab7563844374634d60394ca7a32daded92ebf",
+      "title": "Honda CB400",
+      "author": "mickeleanjelo",
+      "url": "https://sketchfab.com/3d-models/f209de0f9c7b490da5e4089241f4705c",
+      "licence": "CC BY 4.0",
+      "trianglesBefore": 257281,
+      "triangles": 20346,
+      "bytes": 1092600,
+      "runtimeSha256": "8b5503d9933faf066b269e2bf0ece7fce06941d17db974110402d9713a53bec3"
+    },
+    {
+      "id": "sportbike",
+      "kind": "motorcycle",
+      "file": "sportbike.glb",
+      "label": "Ducatti Panigalle V4",
+      "real": "Ducati Panigale V4",
+      "lengthM": 2.11,
+      "prices": [
+        21900,
+        24500
+      ],
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-083/47f87e3d70f644289e34cbff91255d0c.glb",
+      "sha256": "83f555ed9ac013feb319c582e0fb2bb09e8094e0f9835f7a616c4796afb92370",
+      "title": "Ducati Panigale V4",
+      "author": "roy.gearloft.in",
+      "url": "https://sketchfab.com/3d-models/47f87e3d70f644289e34cbff91255d0c",
+      "licence": "CC BY 4.0",
+      "trianglesBefore": 372664,
+      "triangles": 39428,
+      "bytes": 473988,
+      "runtimeSha256": "e53f3a533b492bd72d11a8273894a3a08ffe1d0cac3b980ff4015ec8e2af9986"
+    },
+    {
+      "id": "cruiser",
+      "kind": "motorcycle",
+      "file": "cruiser.glb",
+      "label": "Harlee-Davidsun Breakaway",
+      "real": "Harley-Davidson Breakout",
+      "lengthM": 2.37,
+      "prices": [
+        17900,
+        19900
+      ],
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-150/7d446ec9135c4e35892714d117b37268.glb",
+      "sha256": "568e9aaa2e4b7bb84142ed81a946754109131dbd247a6fefde0da43055497048",
+      "title": "Harley Davidson Breakout",
+      "author": "FWSean",
+      "url": "https://sketchfab.com/3d-models/7d446ec9135c4e35892714d117b37268",
+      "licence": "CC BY 4.0",
+      "trianglesBefore": 79415,
+      "triangles": 27783,
+      "bytes": 373956,
+      "runtimeSha256": "3362a27807807fd7a125e33d35b165e4ad99f137b266b273e72f8a328a229bb2"
+    },
+    {
+      "id": "scooter",
+      "kind": "moped",
+      "file": "scooter.glb",
+      "label": "Vesper 200 Rallye",
+      "real": "Vespa 200 Rally",
+      "lengthM": 1.8,
+      "prices": [
+        2900,
+        3400
+      ],
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-067/e3bfc0046bcf4ecea6e1b291311b8280.glb",
+      "sha256": "22569a096736f2893cf4a0d61b174c38d3e08ed80dac6dc85463bbf2decec932",
+      "title": "Vespa 200 Rally",
+      "author": "fakevalerie",
+      "url": "https://sketchfab.com/3d-models/e3bfc0046bcf4ecea6e1b291311b8280",
+      "licence": "CC BY 4.0",
+      "trianglesBefore": 130657,
+      "triangles": 31056,
+      "bytes": 216180,
+      "runtimeSha256": "f2b1c95dde5c8a5254a8dc2f3e49a7669a38027414d111f68e88326f85594175"
+    },
+    {
+      "id": "moped",
+      "kind": "moped",
+      "file": "moped.glb",
+      "label": "'78 Poohch Heero moped",
+      "real": "1978 Puch moped",
+      "lengthM": 1.65,
+      "prices": [
+        900,
+        1200
+      ],
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-146/b6c212a12d85425bb166f43cd3d70248.glb",
+      "sha256": "08c80d947d5a149f3a3e5140c20fda72eee79ae9d25d0a43f7ac86b1349b8774",
+      "title": "MOPED 1978 Puch Moped Hero",
+      "author": "jake.martinez",
+      "url": "https://sketchfab.com/3d-models/b6c212a12d85425bb166f43cd3d70248",
+      "licence": "CC BY 4.0",
+      "trianglesBefore": 39736,
+      "triangles": 23840,
+      "bytes": 251220,
+      "runtimeSha256": "a3c348c1352cf91f58c9285a079c0dc771aa651563d56dd27ccd32a98d6c08eb"
+    }
+  ]
+}

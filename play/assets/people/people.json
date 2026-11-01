@@ -1,0 +1,832 @@
+{
+ "people": [
+  {
+   "name": "m_casual_01",
+   "sex": "m",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.791,
+   "hip": 0.967,
+   "tris": {
+    "Body": 23999,
+    "Hair": 3904,
+    "Body_LOD1": 5999,
+    "Body_LOD2": 1918,
+    "Hair_LOD1": 1756,
+    "Hair_LOD2": 702
+   }
+  },
+  {
+   "name": "m_casual_02",
+   "sex": "m",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.94,
+   "hip": 1.049,
+   "tris": {
+    "Body": 23172,
+    "Hair": 1610,
+    "Body_LOD1": 5792,
+    "Body_LOD2": 1852,
+    "Hair_LOD1": 724,
+    "Hair_LOD2": 288
+   }
+  },
+  {
+   "name": "m_casual_03",
+   "sex": "m",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.715,
+   "hip": 0.907,
+   "tris": {
+    "Body": 24000,
+    "Hair": 2482,
+    "Body_LOD1": 5999,
+    "Body_LOD2": 1919,
+    "Hair_LOD1": 1115,
+    "Hair_LOD2": 446
+   }
+  },
+  {
+   "name": "m_casual_04",
+   "sex": "m",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.631,
+   "hip": 0.861,
+   "tris": {
+    "Body": 23988,
+    "Hair": 1652,
+    "Body_LOD1": 5997,
+    "Body_LOD2": 1918,
+    "Hair_LOD1": 742,
+    "Hair_LOD2": 297
+   }
+  },
+  {
+   "name": "m_casual_05",
+   "sex": "m",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.797,
+   "hip": 0.964,
+   "tris": {
+    "Body": 24000,
+    "Hair": 3999,
+    "Body_LOD1": 6000,
+    "Body_LOD2": 1920,
+    "Hair_LOD1": 1798,
+    "Hair_LOD2": 719
+   }
+  },
+  {
+   "name": "m_casual_06",
+   "sex": "m",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.979,
+   "hip": 1.076,
+   "tris": {
+    "Body": 24000,
+    "Hair": 2752,
+    "Body_LOD1": 5999,
+    "Body_LOD2": 1920,
+    "Hair_LOD1": 1238,
+    "Hair_LOD2": 495
+   }
+  },
+  {
+   "name": "m_business_01",
+   "sex": "m",
+   "ageYears": null,
+   "style": "business",
+   "height": 1.875,
+   "hip": 1.013,
+   "tris": {
+    "Body": 24000,
+    "Hair": 3904,
+    "Body_LOD1": 5999,
+    "Body_LOD2": 1920,
+    "Hair_LOD1": 1756,
+    "Hair_LOD2": 701
+   }
+  },
+  {
+   "name": "m_business_02",
+   "sex": "m",
+   "ageYears": null,
+   "style": "business",
+   "height": 1.96,
+   "hip": 1.07,
+   "tris": {
+    "Body": 24000,
+    "Hair": 1610,
+    "Body_LOD1": 5999,
+    "Body_LOD2": 1920,
+    "Hair_LOD1": 723,
+    "Hair_LOD2": 289
+   }
+  },
+  {
+   "name": "m_worker_01",
+   "sex": "m",
+   "ageYears": null,
+   "style": "work",
+   "height": 1.738,
+   "hip": 0.925,
+   "tris": {
+    "Body": 23999,
+    "Hair": 4000,
+    "Body_LOD1": 5998,
+    "Body_LOD2": 1919,
+    "Hair_LOD1": 1799,
+    "Hair_LOD2": 720
+   }
+  },
+  {
+   "name": "m_polo_01",
+   "sex": "m",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.748,
+   "hip": 0.932,
+   "tris": {
+    "Body": 23999,
+    "Hair": 2482,
+    "Body_LOD1": 5998,
+    "Body_LOD2": 1919,
+    "Hair_LOD1": 1116,
+    "Hair_LOD2": 445
+   }
+  },
+  {
+   "name": "m_sweater_01",
+   "sex": "m",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.706,
+   "hip": 0.899,
+   "tris": {
+    "Body": 23999,
+    "Hair": 3904,
+    "Body_LOD1": 5998,
+    "Body_LOD2": 1919,
+    "Hair_LOD1": 1756,
+    "Hair_LOD2": 701
+   }
+  },
+  {
+   "name": "m_tshirt_01",
+   "sex": "m",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.875,
+   "hip": 1.008,
+   "tris": {
+    "Body": 23999,
+    "Hair": 1610,
+    "Body_LOD1": 5998,
+    "Body_LOD2": 1919,
+    "Hair_LOD1": 724,
+    "Hair_LOD2": 288
+   }
+  },
+  {
+   "name": "f_casual_01",
+   "sex": "f",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.608,
+   "hip": 0.835,
+   "tris": {
+    "Body": 23999,
+    "Hair": 3999,
+    "Body_LOD1": 5999,
+    "Body_LOD2": 1918,
+    "Hair_LOD1": 1799,
+    "Hair_LOD2": 719
+   }
+  },
+  {
+   "name": "f_casual_02",
+   "sex": "f",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.677,
+   "hip": 0.875,
+   "tris": {
+    "Body": 23999,
+    "Hair": 2752,
+    "Body_LOD1": 5998,
+    "Body_LOD2": 1918,
+    "Hair_LOD1": 1238,
+    "Hair_LOD2": 495
+   }
+  },
+  {
+   "name": "f_elegant_01",
+   "sex": "f",
+   "ageYears": null,
+   "style": "elegant",
+   "height": 1.566,
+   "hip": 0.789,
+   "tris": {
+    "Body": 23999,
+    "Hair": 2808,
+    "Body_LOD1": 5999,
+    "Body_LOD2": 1919,
+    "Hair_LOD1": 1263,
+    "Hair_LOD2": 505
+   }
+  },
+  {
+   "name": "f_sport_01",
+   "sex": "f",
+   "ageYears": null,
+   "style": "sport",
+   "height": 1.63,
+   "hip": 0.855,
+   "tris": {
+    "Body": 24000,
+    "Hair": 3999,
+    "Body_LOD1": 5999,
+    "Body_LOD2": 1920,
+    "Hair_LOD1": 1799,
+    "Hair_LOD2": 719
+   }
+  },
+  {
+   "name": "f_business_01",
+   "sex": "f",
+   "ageYears": null,
+   "style": "business",
+   "height": 1.67,
+   "hip": 0.868,
+   "tris": {
+    "Body": 24000,
+    "Hair": 3418,
+    "Body_LOD1": 5999,
+    "Body_LOD2": 1919,
+    "Hair_LOD1": 1538,
+    "Hair_LOD2": 615
+   }
+  },
+  {
+   "name": "f_business_02",
+   "sex": "f",
+   "ageYears": null,
+   "style": "business",
+   "height": 1.721,
+   "hip": 0.865,
+   "tris": {
+    "Body": 24000,
+    "Hair": 4000,
+    "Body_LOD1": 6000,
+    "Body_LOD2": 1919,
+    "Hair_LOD1": 1800,
+    "Hair_LOD2": 720
+   }
+  },
+  {
+   "name": "f_tshirt_01",
+   "sex": "f",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.622,
+   "hip": 0.846,
+   "tris": {
+    "Body": 23998,
+    "Hair": 4000,
+    "Body_LOD1": 5998,
+    "Body_LOD2": 1919,
+    "Hair_LOD1": 1800,
+    "Hair_LOD2": 720
+   }
+  },
+  {
+   "name": "f_sweater_01",
+   "sex": "f",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.595,
+   "hip": 0.82,
+   "tris": {
+    "Body": 23999,
+    "Hair": 3999,
+    "Body_LOD1": 5998,
+    "Body_LOD2": 1918,
+    "Hair_LOD1": 1799,
+    "Hair_LOD2": 718
+   }
+  },
+  {
+   "name": "f_tucked_01",
+   "sex": "f",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.516,
+   "hip": 0.788,
+   "tris": {
+    "Body": 24000,
+    "Hair": 3416,
+    "Body_LOD1": 6000,
+    "Body_LOD2": 1919,
+    "Hair_LOD1": 1536,
+    "Hair_LOD2": 614
+   }
+  },
+  {
+   "name": "f_older_01",
+   "sex": "f",
+   "ageYears": null,
+   "style": "casual",
+   "height": 1.634,
+   "hip": 0.848,
+   "tris": {
+    "Body": 24000,
+    "Hair": 4000,
+    "Body_LOD1": 5999,
+    "Body_LOD2": 1920,
+    "Hair_LOD1": 1799,
+    "Hair_LOD2": 720
+   }
+  },
+  {
+   "name": "Andrew",
+   "sex": "m",
+   "ageYears": 30,
+   "style": "casual",
+   "height": 1.8,
+   "hip": 1.0439,
+   "tris": {
+    "Body": 18671,
+    "Body_LOD1": 4010,
+    "Hair": 828,
+    "Hair_LOD1": 189
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Paul",
+   "sex": "m",
+   "ageYears": 45,
+   "style": "casual",
+   "height": 1.83,
+   "hip": 1.023,
+   "tris": {
+    "Body": 16023,
+    "Body_LOD1": 3977,
+    "Hair": 698,
+    "Hair_LOD1": 223
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Gordon",
+   "sex": "m",
+   "ageYears": 65,
+   "style": "business",
+   "height": 1.76,
+   "hip": 1.0117,
+   "tris": {
+    "Body": 19499,
+    "Body_LOD1": 4199
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Peter",
+   "sex": "m",
+   "ageYears": 35,
+   "style": "casual",
+   "height": 1.78,
+   "hip": 1.0021,
+   "tris": {
+    "Body": 18446,
+    "Body_LOD1": 4198
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Daren",
+   "sex": "m",
+   "ageYears": 30,
+   "style": "casual",
+   "height": 1.82,
+   "hip": 1.0162,
+   "tris": {
+    "Body": 19497,
+    "Body_LOD1": 4199
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Nancy",
+   "sex": "f",
+   "ageYears": 28,
+   "style": "sport",
+   "height": 1.65,
+   "hip": 0.9848,
+   "tris": {
+    "Body": 18263,
+    "Body_LOD1": 4199,
+    "Hair": 854,
+    "Hair_LOD1": 298
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Plump_Woman",
+   "sex": "f",
+   "ageYears": 50,
+   "style": "casual",
+   "height": 1.62,
+   "hip": 0.8826,
+   "tris": {
+    "Body": 19499,
+    "Body_LOD1": 4199
+   },
+   "source": "scan"
+  },
+  {
+   "name": "African_Woman",
+   "sex": "f",
+   "ageYears": 30,
+   "style": "casual",
+   "height": 1.7,
+   "hip": 0.9306,
+   "tris": {
+    "Body": 15978,
+    "Body_LOD1": 3053,
+    "Hair": 3519,
+    "Hair_LOD1": 1147
+   },
+   "source": "scan",
+   "indoor": true
+  },
+  {
+   "name": "Older_Man_Beanie",
+   "sex": "m",
+   "ageYears": 60,
+   "style": "work",
+   "height": 1.77,
+   "hip": 0.9633,
+   "tris": {
+    "Body": 19500,
+    "Body_LOD1": 4200
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Scan_Man_Tee",
+   "sex": "m",
+   "ageYears": 30,
+   "style": "casual",
+   "height": 1.78,
+   "hip": 0.9467,
+   "tris": {
+    "Body": 19500,
+    "Body_LOD1": 4199
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Old_Lady",
+   "sex": "f",
+   "ageYears": 75,
+   "style": "casual",
+   "height": 1.58,
+   "hip": 0.8871,
+   "tris": {
+    "Body": 19500,
+    "Body_LOD1": 4200
+   },
+   "source": "scan",
+   "indoor": true
+  },
+  {
+   "name": "Antony",
+   "sex": "m",
+   "ageYears": 40,
+   "style": "business",
+   "height": 1.8,
+   "hip": 1.043,
+   "tris": {
+    "Body": 15700,
+    "Body_LOD1": 3151,
+    "Hair": 3800,
+    "Hair_LOD1": 1048
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Nasier",
+   "sex": "m",
+   "ageYears": 35,
+   "style": "business",
+   "height": 1.78,
+   "hip": 0.9937,
+   "tris": {
+    "Body": 18645,
+    "Body_LOD1": 3999,
+    "Hair": 696,
+    "Hair_LOD1": 198
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Jamal",
+   "sex": "m",
+   "ageYears": 30,
+   "style": "casual",
+   "height": 1.82,
+   "hip": 1.0075,
+   "tris": {
+    "Body": 19499,
+    "Body_LOD1": 4200
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Daniel",
+   "sex": "m",
+   "ageYears": 30,
+   "style": "casual",
+   "height": 1.79,
+   "hip": 0.9968,
+   "tris": {
+    "Body": 19500,
+    "Body_LOD1": 4200
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Arthur",
+   "sex": "m",
+   "ageYears": 35,
+   "style": "casual",
+   "height": 1.76,
+   "hip": 1.03,
+   "tris": {
+    "Body": 19500,
+    "Body_LOD1": 4200
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Nora",
+   "sex": "f",
+   "ageYears": 30,
+   "style": "casual",
+   "height": 1.68,
+   "hip": 0.9294,
+   "tris": {
+    "Body": 16910,
+    "Body_LOD1": 3749,
+    "Hair": 1893,
+    "Hair_LOD1": 451
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Diana",
+   "sex": "f",
+   "ageYears": 28,
+   "style": "casual",
+   "height": 1.66,
+   "hip": 0.9374,
+   "tris": {
+    "Body": 16884,
+    "Body_LOD1": 3295,
+    "Hair": 2616,
+    "Hair_LOD1": 904
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Maria",
+   "sex": "f",
+   "ageYears": 35,
+   "style": "business",
+   "height": 1.65,
+   "hip": 0.9781,
+   "tris": {
+    "Body": 15648,
+    "Body_LOD1": 3607,
+    "Hair": 2166,
+    "Hair_LOD1": 593
+   },
+   "source": "scan"
+  },
+  {
+   "name": "Veronica",
+   "sex": "f",
+   "ageYears": 30,
+   "style": "casual",
+   "height": 1.7,
+   "hip": 0.9909,
+   "tris": {
+    "Body": 17244,
+    "Body_LOD1": 3602,
+    "Hair": 2255,
+    "Hair_LOD1": 597
+   },
+   "source": "scan"
+  },
+  {
+   "name": "MrsFirst",
+   "sex": "f",
+   "ageYears": 55,
+   "style": "casual",
+   "height": 1.62,
+   "hip": 0.9054,
+   "tris": {
+    "Body": 16035,
+    "Body_LOD1": 3603,
+    "Hair": 2858,
+    "Hair_LOD1": 596
+   },
+   "source": "scan"
+  }
+ ],
+ "anims": "people-anims.glb",
+ "refHip": 0.8739,
+ "refHeight": 1.6946,
+ "lod": [
+  14,
+  45
+ ],
+ "clips": {
+  "Idle": {
+   "loop": true,
+   "speed": 0.0,
+   "duration": 6.0
+  },
+  "Walk": {
+   "loop": true,
+   "speed": 1.084,
+   "duration": 1.133
+  },
+  "WalkFormal": {
+   "loop": true,
+   "speed": 0.743,
+   "duration": 1.625
+  },
+  "Jog": {
+   "loop": true,
+   "speed": 2.644,
+   "duration": 0.733
+  },
+  "Run": {
+   "loop": true,
+   "speed": 3.096,
+   "duration": 0.733
+  },
+  "Talk": {
+   "loop": true,
+   "speed": 0.0,
+   "duration": 6.0
+  },
+  "Phone": {
+   "loop": true,
+   "speed": 0.0,
+   "duration": 4.0
+  },
+  "Wait": {
+   "loop": true,
+   "speed": 0.0,
+   "duration": 6.167
+  },
+  "No": {
+   "loop": true,
+   "speed": 0.0,
+   "duration": 3.083
+  },
+  "Yes": {
+   "loop": false,
+   "speed": 0.0,
+   "duration": 3.125
+  },
+  "Bump": {
+   "loop": false,
+   "speed": 0.014,
+   "duration": 0.417
+  },
+  "HitHead": {
+   "loop": false,
+   "speed": 0.0,
+   "duration": 0.5
+  },
+  "Knockback": {
+   "loop": false,
+   "speed": -4.79,
+   "duration": 1.042
+  },
+  "Death": {
+   "loop": false,
+   "speed": -0.016,
+   "duration": 2.958
+  },
+  "Interact": {
+   "loop": false,
+   "speed": 0.0,
+   "duration": 2.5
+  },
+  "Sit": {
+   "loop": true,
+   "speed": 0.0,
+   "duration": 3.0
+  },
+  "SitTalk": {
+   "loop": true,
+   "speed": 0.0,
+   "duration": 4.0
+  },
+  "Carry": {
+   "loop": true,
+   "speed": 0.497,
+   "duration": 2.458
+  },
+  "JumpStart": {
+   "loop": false,
+   "speed": 0.036,
+   "duration": 1.667
+  },
+  "JumpLoop": {
+   "loop": true,
+   "speed": -0.001,
+   "duration": 3.083
+  },
+  "JumpLand": {
+   "loop": false,
+   "speed": -0.0,
+   "duration": 1.583
+  },
+  "PistolIdle": {
+   "loop": true,
+   "speed": 0.0,
+   "duration": 2.042
+  },
+  "PistolAim": {
+   "loop": true,
+   "speed": 0.0,
+   "duration": 0.167
+  },
+  "PistolShoot": {
+   "loop": false,
+   "speed": 0.0,
+   "duration": 0.792
+  },
+  "PistolReload": {
+   "loop": false,
+   "speed": 0.0,
+   "duration": 2.083
+  },
+  "PunchJab": {
+   "loop": false,
+   "speed": 0.0,
+   "duration": 1.042
+  },
+  "PunchCross": {
+   "loop": false,
+   "speed": -0.0,
+   "duration": 1.25
+  },
+  "Drive": {
+   "loop": true,
+   "speed": 0.0,
+   "duration": 2.042
+  },
+  "CrouchIdle": {
+   "loop": true,
+   "speed": -0.0,
+   "duration": 3.625
+  },
+  "CrouchWalk": {
+   "loop": true,
+   "speed": 0.541,
+   "duration": 2.458
+  },
+  "Roll": {
+   "loop": false,
+   "speed": 0.005,
+   "duration": 1.833
+  },
+  "Dance": {
+   "loop": true,
+   "speed": 0.001,
+   "duration": 1.208
+  },
+  "Idle2": {
+   "loop": true,
+   "speed": 0.0,
+   "duration": 6.0
+  },
+  "Idle3": {
+   "loop": true,
+   "speed": 0.0,
+   "duration": 5.0
+  }
+ }
+}
