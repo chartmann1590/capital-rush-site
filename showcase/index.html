@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capital Rush: Coxsackie to the casinos</title>
+<meta property="og:title" content="Capital Rush: Coxsackie to the casinos">
+<meta property="og:description" content="Coxsackie by day, the Mansion Street Grand Prix, a warden tailed at dusk, a Friday night band at Rivers Casino, Saratoga, Shenaniganz and 9W after dark. One continuous run.">
+<style>
+body{margin:0;background:#0b0d10;color:#e8e8e8;font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:22px 16px 40px}
+h1{font-size:26px;margin:4px 0 6px} p{color:#aab;margin:0 0 16px}
+a{color:#f0b429} .v{aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden} video{width:100%;height:100%;display:block}
+ol{columns:2;column-gap:28px;padding-left:20px;margin-top:18px} li{break-inside:avoid;margin:2px 0}
+li a{font-variant-numeric:tabular-nums;text-decoration:none;margin-right:6px}
+@media(max-width:640px){ol{columns:1}}
+</style></head><body><div class="wrap">
+<a href="../">&larr; Capital Rush</a>
+<h1>Coxsackie to the casinos</h1>
+<p>Coxsackie by day, the Mansion Street Grand Prix, a warden tailed at dusk, a Friday night at Rivers Casino with a live band by the bar, Saratoga's floor, Shenaniganz, and Route 9W after dark. One continuous run of the game, recorded as it played.</p>
+<div class="v"><video id="v" controls playsinline preload="metadata" poster="poster.jpg"></video></div>
+<ol id="beats">
+    <li><a href="#" data-t="9.7">0:09</a> Coxsackie from over the Hudson</li>
+    <li><a href="#" data-t="21.7">0:21</a> Down Mansion Street, Coxsackie</li>
+    <li><a href="#" data-t="31.4">0:31</a> Riverside Park on the Hudson</li>
+    <li><a href="#" data-t="45.2">0:45</a> Featured job: the Mansion Street Grand Prix</li>
+    <li><a href="#" data-t="154.7">2:34</a> Checkpoint at First Reformed Church</li>
+    <li><a href="#" data-t="295.2">4:55</a> Grand Prix finish on 9W</li>
+    <li><a href="#" data-t="314.6">5:14</a> Featured job: the warden&#x27;s night off</li>
+    <li><a href="#" data-t="346.7">5:46</a> Tailing the warden into the village</li>
+    <li><a href="#" data-t="410.5">6:50</a> The meet, photographed</li>
+    <li><a href="#" data-t="419.8">6:59</a> Rivers Casino, Schenectady, Friday night</li>
+    <li><a href="#" data-t="436.5">7:16</a> The Rivers floor</li>
+    <li><a href="#" data-t="447.6">7:27</a> Across the casino floor</li>
+    <li><a href="#" data-t="464.9">7:44</a> Live band by Van Slyck&#x27;s bar</li>
+    <li><a href="#" data-t="472.6">7:52</a> The front row</li>
+    <li><a href="#" data-t="486.6">8:06</a> The bar</li>
+    <li><a href="#" data-t="500.4">8:20</a> The tables</li>
+    <li><a href="#" data-t="514.4">8:34</a> The restaurant</li>
+    <li><a href="#" data-t="583.8">9:43</a> Featured job: the house edge, chip carts lifted</li>
+    <li><a href="#" data-t="795.2">13:15</a> Chips dropped on Liberty Street</li>
+    <li><a href="#" data-t="817.8">13:37</a> Saratoga Casino Hotel at night</li>
+    <li><a href="#" data-t="830.3">13:50</a> The Saratoga floor</li>
+    <li><a href="#" data-t="841.2">14:01</a> Across the Saratoga floor</li>
+    <li><a href="#" data-t="855.1">14:15</a> The Saratoga bar</li>
+    <li><a href="#" data-t="869.0">14:29</a> The Saratoga tables</li>
+    <li><a href="#" data-t="883.0">14:43</a> The Saratoga restaurant</li>
+    <li><a href="#" data-t="935.0">15:35</a> Shenaniganz at night</li>
+    <li><a href="#" data-t="971.4">16:11</a> State Street, Albany, at night</li>
+    <li><a href="#" data-t="981.4">16:21</a> Route 9W, Coxsackie, at night</li>
+    <li><a href="#" data-t="1052.1">17:32</a> The end of the night on 9W</li>
+</ol>
+</div>
+<script>
+(function () {
+  var v = document.getElementById('v'), src = 'showcase.m3u8';
+  if (v.canPlayType('application/vnd.apple.mpegurl')) v.src = src;
+  else { var s = document.createElement('script'); s.src = '../media/hls.light.min.js';
+    s.onload = function () { if (window.Hls && Hls.isSupported()) { var h = new Hls(); h.loadSource(src); h.attachMedia(v); } };
+    document.head.appendChild(s); }
+  document.getElementById('beats').addEventListener('click', function (e) {
+    var a = e.target.closest('a[data-t]'); if (!a) return; e.preventDefault();
+    v.currentTime = parseFloat(a.dataset.t); v.play(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+})();
+</script>
+</body></html>
