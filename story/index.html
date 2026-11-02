@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capital Rush: one day, one take</title>
+<meta property="og:title" content="Capital Rush: one day, one take">
+<meta property="og:description" content="Busted in Saratoga, a van to Coxsackie, over the fence, back to Albany, a night out in Schenectady, home to bed. One continuous run.">
+<style>
+body{margin:0;background:#0b0d10;color:#e8e8e8;font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:22px 16px 40px}
+h1{font-size:26px;margin:4px 0 6px} p{color:#aab;margin:0 0 16px}
+a{color:#f0b429} .v{aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden} video{width:100%;height:100%;display:block}
+ol{columns:2;column-gap:28px;padding-left:20px;margin-top:18px} li{break-inside:avoid;margin:2px 0}
+li a{font-variant-numeric:tabular-nums;text-decoration:none;margin-right:6px}
+@media(max-width:640px){ol{columns:1}}
+</style></head><body><div class="wrap">
+<a href="../">&larr; Capital Rush</a>
+<h1>One day, one take</h1>
+<p>Busted in Saratoga, a van to Coxsackie, over the fence, back to Albany, a night out in Schenectady, home to bed. One continuous run of the game, recorded as it played.</p>
+<div class="v"><video id="v" controls playsinline preload="metadata"></video></div>
+<ol id="beats">
+    <li><a href="#" data-t="0.1">0:00</a> Broadway, Saratoga Springs, 7:36 AM</li>
+    <li><a href="#" data-t="49.6">0:49</a> Shots fired on Broadway</li>
+    <li><a href="#" data-t="63.2">1:03</a> Busted: booked by Saratoga Springs PD</li>
+    <li><a href="#" data-t="68.6">1:08</a> The van ride to Coxsackie</li>
+    <li><a href="#" data-t="100.0">1:40</a> Intake at Coxsackie Correctional</li>
+    <li><a href="#" data-t="129.8">2:09</a> Prison life: the workshop</li>
+    <li><a href="#" data-t="147.8">2:27</a> The mess hall</li>
+    <li><a href="#" data-t="197.7">3:17</a> The yard</li>
+    <li><a href="#" data-t="221.2">3:41</a> Through the yard fence: the alarm goes off</li>
+    <li><a href="#" data-t="271.0">4:31</a> A staff-lot car, hotwired</li>
+    <li><a href="#" data-t="279.1">4:39</a> The 21B truck stop: ditching the hot car</li>
+    <li><a href="#" data-t="283.5">4:43</a> A car out of the hotel lot</li>
+    <li><a href="#" data-t="468.4">7:48</a> Thruway north from Exit 21B</li>
+    <li><a href="#" data-t="476.6">7:56</a> Back in Albany, by City Hall</li>
+    <li><a href="#" data-t="487.4">8:07</a> Shootout with Albany PD</li>
+    <li><a href="#" data-t="607.4">10:07</a> A car pulled out of traffic</li>
+    <li><a href="#" data-t="799.1">13:19</a> Shenaniganz, the strip club</li>
+    <li><a href="#" data-t="991.6">16:31</a> Rivers Casino, Schenectady</li>
+    <li><a href="#" data-t="1058.4">17:38</a> The casino floor</li>
+    <li><a href="#" data-t="1107.3">18:27</a> The slots</li>
+    <li><a href="#" data-t="1408.9">23:28</a> Stewart&#x27;s Shops: food</li>
+    <li><a href="#" data-t="1438.6">23:58</a> 1703 Foster Ave, Schenectady</li>
+    <li><a href="#" data-t="1451.9">24:11</a> Home: in through the front door</li>
+    <li><a href="#" data-t="1457.5">24:17</a> Into bed, lights out</li>
+    <li><a href="#" data-t="1473.6">24:33</a> Up at 7</li>
+</ol>
+</div>
+<script>
+(function () {
+  var v = document.getElementById('v'), src = 'story.m3u8';
+  if (v.canPlayType('application/vnd.apple.mpegurl')) v.src = src;
+  else { var s = document.createElement('script'); s.src = '../media/hls.light.min.js';
+    s.onload = function () { if (window.Hls && Hls.isSupported()) { var h = new Hls(); h.loadSource(src); h.attachMedia(v); } };
+    document.head.appendChild(s); }
+  document.getElementById('beats').addEventListener('click', function (e) {
+    var a = e.target.closest('a[data-t]'); if (!a) return; e.preventDefault();
+    v.currentTime = parseFloat(a.dataset.t); v.play(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+})();
+</script>
+</body></html>
